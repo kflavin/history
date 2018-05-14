@@ -24,13 +24,13 @@
               label="Password"
               type="password"
             )
-        v-btn(@click="") Login
+        v-btn(@click="submitForm") Login
 
 </template>
 
 <script>
 // import axios from '~/plugins/axios'
-// import AUTHENTICATION_MUTATION from '~/apollo/mutations/authenticate'
+import AUTHENTICATION_MUTATION from '~/apollo/mutations/authenticate'
 
 export default {
   // async asyncData () {
@@ -44,9 +44,46 @@ export default {
       password: ''
     }
   },
+  created () {
+    console.log(AUTHENTICATION_MUTATION)
+  },
   head () {
     return {
       title: 'Users'
+    }
+  },
+  graphqlForm: {
+    query: AUTHENTICATION_MUTATION,
+    variables () {
+      return {
+        email: this.email,
+        password: this.password
+      }
+    },
+    success (res) {
+      console.log('You have logged in!')
+      console.log(res)
+    },
+    fail (res) {
+      console.log('Invalid credentials!')
+    }
+  },
+  methods: {
+    submitForm2 () {
+      console.log('submitting the form')
+      this.$apollo.mutate({
+        mutation: AUTHENTICATION_MUTATION,
+        variables: {
+          eail: 'asdfas',
+          password: 'password',
+          bullshit: 'asdf'
+        }
+      }).then((res) => {
+        console.log(' we have success !! ')
+      }).catch((err) => {
+        console.log('error')
+        console.log(err)
+      })
     }
   }
 }

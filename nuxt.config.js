@@ -14,6 +14,9 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
+  env: {
+    GRAPHQL_API: process.env.GRAPHQL_API
+  },
   /*
   ** Global CSS
   */
@@ -46,7 +49,8 @@ module.exports = {
     '~/modules/resources'
   ],
   plugins: [
-    '~/plugins/vuetify.js'
+    '~/plugins/vuetify.js',
+    '~/plugins/global.js'
   ],
   apollo: {
     clientConfigs: {
