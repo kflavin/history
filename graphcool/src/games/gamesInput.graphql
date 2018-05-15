@@ -1,0 +1,16 @@
+type GamesInput {
+  opponent: String
+  home: Boolean
+  score1: Int
+  score2: Int
+}
+
+extend type Mutation {
+  createGamesInput(
+    opponent: String
+    home: Boolean
+    score1: Int
+    score2: Int
+  ): GamesInput
+}
+

@@ -7,7 +7,7 @@
 
 export default {
   created () {
-    console.log('the admin layout create()')
+    console.log('the default layout created()')
   }
 }
 </script>
