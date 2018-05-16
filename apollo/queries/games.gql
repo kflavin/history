@@ -1,0 +1,23 @@
+query allGames($opponent: String,
+                $home: Boolean,
+                $score1: Int,
+                $score2: Int,
+                $result: RESULT,
+                $date: DateTime
+                ) {
+	allGames(filter: {
+        opponent: $opponent,
+        home: $home,
+        score1: $score1,
+        score2: $score2,
+        result: $result,
+        date: $date
+    }) {
+        opponent
+        home
+        score1
+        score2
+        result
+        date
+	}
+}

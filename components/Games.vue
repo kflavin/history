@@ -25,13 +25,15 @@ div
     class="elevation-1"
   )
     template(slot="items" slot-scope="props")
-      td {{ props.item.name }}
+      td {{ props.item.opponent }}
       td {{ props.item.date }}
     
 
 </template>
 
 <script>
+import GAMES from '~/apollo/queries/games'
+
 export default {
   created () {
     console.log('created')
@@ -45,13 +47,43 @@ export default {
       teams: ['Win', 'Loss', 'Tie'],
       seasons: ['2018', '2017', '2016'],
       headers: [
-        { text: 'Name', value: 'name', align: 'left' },
+        { text: 'Opponent', value: 'opponent', align: 'left' },
         { text: 'Date', value: 'date', align: 'left' }
       ],
-      rows: [
-        { 'name': 'Georgia', 'date': '2017-09-02' },
-        { 'name': 'USC', 'date': '2017-10-17' }
-      ]
+      filters: {
+        opponent: '',
+        home: null,
+        score1: null,
+        score2: null,
+        result: null,
+        date: null
+      }
+    }
+  },
+  apollo: {
+    rows: {
+      query: GAMES,
+      fetchPolicy: 'network-only',
+      variables () {
+        console.log('Set variables')
+        let data = {}
+        let filters = Object.keys(this.filters).filter(key => this.filters[key])
+
+        filters.forEach(key => {
+          data[key] = filters[key]
+        })
+
+        console.log('Filters are set to ')
+        console.log(data)
+
+        return data
+      },
+      update (data) {
+        return data.allGames
+        // if (data.allGames) {
+        //   return data.allGames
+        // }
+      }
     }
   }
 }
