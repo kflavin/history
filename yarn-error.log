@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/kyleflavin/.nvm/versions/node/v8.3.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add apollo-http-link
+  /Users/kyleflavin/.nvm/versions/node/v8.3.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install vue-select
 
 PATH: 
   /Users/kyleflavin/.rvm/gems/ruby-2.3.1/bin:/Users/kyleflavin/.rvm/gems/ruby-2.3.1@global/bin:/Users/kyleflavin/.rvm/rubies/ruby-2.3.1/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.1/shims:/Users/kyleflavin/.pyenv/shims:/Users/kyleflavin/.nvm/versions/node/v8.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Users/kyleflavin/Library/Python/2.7/bin:/usr/texbin:/Users/kyleflavin/bin:/Users/kyleflavin/.rvm/bin
@@ -31,10 +31,12 @@ npm manifest:
       "@nuxtjs/apollo": "^3.0.6",
       "apollo-cache-inmemory": "^1.2.1",
       "apollo-link-batch-http": "^1.2.2",
+      "apollo-link-http": "^1.5.4",
       "axios": "^0.18.0",
       "cross-env": "^5.1.5",
       "express": "^4.16.3",
       "graphql": "^0.13.2",
+      "graphql-tag": "^2.9.2",
       "graphql-tools": "^3.0.1",
       "nuxt": "^1.4.0",
       "source-map-support": "^0.5.6",
@@ -392,6 +394,13 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/apollo-link-http-common/-/apollo-link-http-common-0.2.4.tgz#877603f7904dc8f70242cac61808b1f8d034b2c3"
     dependencies:
       apollo-link "^1.2.2"
+  
+  apollo-link-http@^1.5.4:
+    version "1.5.4"
+    resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.5.4.tgz#b80b7b4b342c655b6a5614624b076a36be368f43"
+    dependencies:
+      apollo-link "^1.2.2"
+      apollo-link-http-common "^0.2.4"
   
   apollo-link@1.2.1:
     version "1.2.1"
@@ -3417,6 +3426,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-4.1.10.tgz#247ada0c8d85b9d5d6b37180973442ac68ff15de"
     dependencies:
       apollo-utilities "^1.0.12"
+  
+  graphql-tag@^2.9.2:
+    version "2.9.2"
+    resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.9.2.tgz#2f60a5a981375f430bf1e6e95992427dc18af686"
   
   graphql-tools@^3.0.1:
     version "3.0.1"
@@ -7794,11 +7807,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.8.tgz#1ea93995bf098754a58215a1e0a7309e5749ec42"
 
 Trace: 
-  Error: Couldn't find package "apollo-http-link" on the "npm" registry.
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add vue-select" instead.
       at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
-      at NpmResolver.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:51625:15)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
       at Generator.next (<anonymous>)
       at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
       at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
       at <anonymous>
-      at process._tickCallback (internal/process/next_tick.js:188:7)

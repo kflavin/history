@@ -24,6 +24,7 @@
     "graphql-tools": "^3.0.1",
     "nuxt": "^1.4.0",
     "source-map-support": "^0.5.6",
+    "vue-select": "^2.4.0",
     "vuetify": "^1.0.17"
   },
   "devDependencies": {
