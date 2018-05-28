@@ -1,8 +1,6 @@
 <template lang="pug">
 div
   v-layout(row wrap)
-    v-flex(xs12).headline
-      | Games
     v-flex(xs3)
       no-ssr
         div
