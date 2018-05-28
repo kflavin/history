@@ -69,14 +69,6 @@ export default {
       ],
       filter: {},
       graphqlFilters: {}
-      // filters: {
-      //   opponent: 'Georgia',
-      //   home: null,
-      //   score1: null,
-      //   score2: null,
-      //   result: null,
-      //   date: null
-      // }
     }
   },
   methods: {
@@ -121,39 +113,13 @@ export default {
       query: GAMES,
       fetchPolicy: 'network-only',
       variables () {
-        // let data = {}
-        // let filters = Object.keys(this.filters).filter(key => this.filters[key])
-
-        // filters.forEach(key => {
-        //   data[key] = filters[key]
-        // })
-
-        // data = {
-        //   opponent: this.filters.opponent,
-        //   home: this.filters.home,
-        //   score1: this.filters.score1,
-        //   score2: this.filters.score2,
-        //   result: this.filters.result,
-        //   date: this.filters.date
-        // }
-
         return {
           opponent: this.graphqlFilters.opponent,
           result: this.graphqlFilters.result,
           season: this.graphqlFilters.season,
           orderBy: this.pagination.orderBy,
           first: this.pagesInfo.itemsPerPage
-          // score1: 101
-          // home: this.filters.home,
-          // score1: this.filters.score1,
-          // score2: this.filters.score2,
-          // result: this.filters.result,
-          // date: this.filters.date
         }
-        // console.log('data is')
-        // console.log(data)
-
-        // return data
       },
       update (data) {
         this.pagesInfo.totalCount = data._allGamesMeta.count
