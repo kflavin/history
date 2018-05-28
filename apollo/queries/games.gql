@@ -6,7 +6,8 @@ query allGames($opponent: String,
                 $date: DateTime,
                 $season: Int,
                 $orderBy: GameOrderBy,
-                $first: Int
+                $first: Int,
+                $skip: Int
                 ) {
 	allGames(
         filter: {
@@ -19,8 +20,10 @@ query allGames($opponent: String,
             season: $season
         },
         orderBy: $orderBy,
-        first: $first
+        first: $first,
+        skip: $skip
     ) {
+        id
         opponent
         home
         score1

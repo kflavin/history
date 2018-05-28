@@ -18,12 +18,21 @@ div
         div
           label(for="season") Season
           vue-select(id="season" label="Season" @input="setSeason" :options="seasons")
+  div.text-xs-center.pt-2
+    v-pagination(
+      :length="numberOfPages"
+      :value="pagesInfo.currentPage"
+      total-visible="5"
+      @input="setPage"
+      circle
+  )
   v-data-table(
     :pagination.sync="pagination"
     :headers="headers"
     :items="rows",
     :total-items="12"
     class="elevation-1"
+    hide-actions
   )
     template(slot="items" slot-scope="props")
       td {{ props.item.season }}
@@ -31,6 +40,14 @@ div
       td {{ props.item.opponent }}
       td {{ props.item.result }}
       td {{ props.item.score1 }} - {{ props.item.score2 }}
+  div.text-xs-center.pt-2
+    v-pagination(
+      :length="numberOfPages"
+      :value="pagesInfo.currentPage"
+      total-visible="5"
+      @input="setPage"
+      circle
+  )
     
 
 </template>
@@ -45,7 +62,14 @@ export default {
     return {
       pagination: {
         sortBy: 'date',
-        descending: true
+        descending: true,
+        sortMap: {
+          'season': 'season',
+          'date': 'date',
+          'opponent': 'opponent',
+          'result': 'result',
+          'score': 'score1'
+        }
       },
       opponent: null,
       result: null,
@@ -93,7 +117,7 @@ export default {
     }
   },
   pagination: {
-    itemsPerPage: 12
+    itemsPerPage: 5
   },
   apollo: {
     rows: {
@@ -105,7 +129,8 @@ export default {
           result: this.graphqlFilters.result,
           season: this.graphqlFilters.season,
           orderBy: this.pagination.orderBy,
-          first: this.pagesInfo.itemsPerPage
+          first: this.pagesInfo.itemsPerPage,
+          skip: this.pagesInfo.skip
         }
       },
       update (data) {
