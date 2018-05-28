@@ -27,7 +27,7 @@ module.exports = {
   ** Add axios globally
   */
   build: {
-    vendor: ['axios', 'vue-select'],
+    vendor: ['axios', 'vue-select', 'moment'],
     /*
     ** Run ESLINT on save
     */
@@ -51,6 +51,7 @@ module.exports = {
   plugins: [
     '~/plugins/vuetify.js',
     '~/plugins/global.js',
+    '~/plugins/moment.js',
     { src: '~/plugins/vue-select.js', ssr: false }
   ],
   apollo: {
