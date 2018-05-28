@@ -41,10 +41,6 @@ import PaginationMixin from '~/components/mixins/pagination'
 
 export default {
   mixins: [PaginationMixin],
-  created () {
-    console.log('created')
-    console.log(this.$moment('19980102', 'YYYY-MM-DD'))
-  },
   data () {
     return {
       pagination: {
@@ -94,15 +90,6 @@ export default {
     },
     setSeason (value) {
       this.setValue('season', value ? parseInt(value) : null)
-    },
-    search (k, v) {
-      console.log('search')
-      console.log('key ' + k)
-      console.log('val ' + v)
-
-      // console.log(Object.keys(this.filter))
-      this.graphqlFilters = Object.assign({}, this.filter)
-      console.log(this.graphqlFilters)
     }
   },
   pagination: {
