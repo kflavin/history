@@ -7,82 +7,157 @@ div
       no-ssr
         div
           label(for="opponent") Opponent
-          vue-select(id="opponent" label="Opponent" v-model="opponent" :options="opponents")
+          vue-select(id="opponent" @input="setOpponent" label="Opponent" :options="opponents")
     v-flex(xs3)
       no-ssr
         div
           label(for="result") Result
-          vue-select(id="result" label="Result" v-model="result" :options="teams")
+          vue-select(id="result" @input="setResult" label="Result" v-model="filter.result" :options="results")
     v-flex(xs3)
       no-ssr
         div
           label(for="season") Season
-          vue-select(id="season" label="Season" v-model="season" :options="seasons")
+          vue-select(id="season" label="Season" @input="setSeason" :options="seasons")
   v-data-table(
+    :pagination.sync="pagination"
     :headers="headers"
     :items="rows",
-    :total-items="5"
+    :total-items="12"
     class="elevation-1"
   )
     template(slot="items" slot-scope="props")
+      td {{ props.item.season }}
+      td {{ $moment(props.item.date).format('YYYY-MM-DD') }}
       td {{ props.item.opponent }}
-      td {{ props.item.date }}
+      td {{ props.item.result }}
+      td {{ props.item.score1 }} - {{ props.item.score2 }}
     
 
 </template>
 
 <script>
 import GAMES from '~/apollo/queries/games'
+import PaginationMixin from '~/components/mixins/pagination'
 
 export default {
+  mixins: [PaginationMixin],
   created () {
     console.log('created')
+    console.log(this.$moment('19980102', 'YYYY-MM-DD'))
   },
   data () {
     return {
+      pagination: {
+        sortBy: 'date',
+        descending: true
+      },
       opponent: null,
       result: null,
       season: null,
       opponents: ['Michigan', 'Purdue', 'Georgia', 'USC', 'Miami'],
-      teams: ['Win', 'Loss', 'Tie'],
-      seasons: ['2018', '2017', '2016'],
-      headers: [
-        { text: 'Opponent', value: 'opponent', align: 'left' },
-        { text: 'Date', value: 'date', align: 'left' }
+      results: [
+        'WIN', 'LOSS', 'TIE'
       ],
-      filters: {
-        opponent: '',
-        home: null,
-        score1: null,
-        score2: null,
-        result: null,
-        date: null
-      }
+      seasons: ['2018', '2017', '2016', '1998'],
+      headers: [
+        { text: 'Season', value: 'season', align: 'left' },
+        { text: 'Date', value: 'date', align: 'left' },
+        { text: 'Opponent', value: 'opponent', align: 'left' },
+        { text: 'Result', value: 'result', align: 'left' },
+        { text: 'Score', value: 'score', align: 'left' }
+
+      ],
+      filter: {},
+      graphqlFilters: {}
+      // filters: {
+      //   opponent: 'Georgia',
+      //   home: null,
+      //   score1: null,
+      //   score2: null,
+      //   result: null,
+      //   date: null
+      // }
     }
+  },
+  methods: {
+    resetFilters () {
+      this.filter = Object.assign({}, {})
+      this.graphqlFilters = Object.assign({}, {})
+    },
+    setValue (key, value) {
+      console.log(' set to value: ' + value)
+      if (value) {
+        this.filter[key] = value
+      } else {
+        delete this.filter[key]
+      }
+      console.log(this.filter)
+      this.graphqlFilters = Object.assign({}, this.filter)
+    },
+    setOpponent (value) {
+      this.setValue('opponent', value)
+    },
+    setResult (value) {
+      this.setValue('result', value)
+    },
+    setSeason (value) {
+      this.setValue('season', value ? parseInt(value) : null)
+    },
+    search (k, v) {
+      console.log('search')
+      console.log('key ' + k)
+      console.log('val ' + v)
+
+      // console.log(Object.keys(this.filter))
+      this.graphqlFilters = Object.assign({}, this.filter)
+      console.log(this.graphqlFilters)
+    }
+  },
+  pagination: {
+    itemsPerPage: 12
   },
   apollo: {
     rows: {
       query: GAMES,
       fetchPolicy: 'network-only',
       variables () {
-        console.log('Set variables')
-        let data = {}
-        let filters = Object.keys(this.filters).filter(key => this.filters[key])
+        // let data = {}
+        // let filters = Object.keys(this.filters).filter(key => this.filters[key])
 
-        filters.forEach(key => {
-          data[key] = filters[key]
-        })
+        // filters.forEach(key => {
+        //   data[key] = filters[key]
+        // })
 
-        console.log('Filters are set to ')
-        console.log(data)
+        // data = {
+        //   opponent: this.filters.opponent,
+        //   home: this.filters.home,
+        //   score1: this.filters.score1,
+        //   score2: this.filters.score2,
+        //   result: this.filters.result,
+        //   date: this.filters.date
+        // }
 
-        return data
+        return {
+          opponent: this.graphqlFilters.opponent,
+          result: this.graphqlFilters.result,
+          season: this.graphqlFilters.season,
+          orderBy: this.pagination.orderBy,
+          first: this.pagesInfo.itemsPerPage
+          // score1: 101
+          // home: this.filters.home,
+          // score1: this.filters.score1,
+          // score2: this.filters.score2,
+          // result: this.filters.result,
+          // date: this.filters.date
+        }
+        // console.log('data is')
+        // console.log(data)
+
+        // return data
       },
       update (data) {
+        this.pagesInfo.totalCount = data._allGamesMeta.count
         return data.allGames
-        // if (data.allGames) {
-        //   return data.allGames
-        // }
       }
     }
   }
