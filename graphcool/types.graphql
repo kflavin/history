@@ -47,7 +47,8 @@ type Game @model {
   score1: Int!
   score2: Int!
   result: RESULT! @defaultValue(value: WIN)
-  date: DateTime
+  date: DateTime,
+  season: Int
 }
 
 enum RESULT {
