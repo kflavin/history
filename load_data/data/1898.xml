@@ -1,0 +1,39 @@
+<game_days>
+	<event_date date="18981008">
+		<event id="1611196" local_time="TBA" eastern_time="TBA" eastern_date="18981008" hc="ill" vc="nd" hn="Illinois" vn="Notre Dame" hs="0" vs="5" event_name="Notre Dame @ Illinois" tournament="" location="Champaign, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18981015">
+		<event id="1611197" local_time="TBA" eastern_time="TBA" eastern_date="18981015" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="53" vs="0" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18981023">
+		<event id="1611198" local_time="TBA" eastern_time="TBA" eastern_date="18981023" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="23" vs="0" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18981029">
+		<event id="1611199" local_time="TBA" eastern_time="TBA" eastern_date="18981029" hc="nd" vc="dapw" hn="Notre Dame" vn="DePauw" hs="32" vs="0" event_name="DePauw" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18981105">
+		<event id="1611201" local_time="TBA" eastern_time="TBA" eastern_date="18981105" hc="nd" vc="ind" hn="Notre Dame" vn="Indiana" hs="5" vs="11" event_name="Indiana @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18981119">
+		<event id="1611204" local_time="TBA" eastern_time="TBA" eastern_date="18981119" hc="albi" vc="nd" hn="Albion" vn="Notre Dame" hs="0" vs="60" event_name="Notre Dame @ Albion" tournament="" location="Albion, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>4</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>2</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>2</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+	</record>
+</game_days>

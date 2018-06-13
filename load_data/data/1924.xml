@@ -1,0 +1,56 @@
+<game_days>
+	<event_date date="19241004">
+		<event id="1610531" local_time="TBA" eastern_time="TBA" eastern_date="19241004" hc="nd" vc="lmbd" hn="Notre Dame" vn="Lombard College" hs="40" vs="0" event_name="Lombard" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241011">
+		<event id="1610532" local_time="TBA" eastern_time="TBA" eastern_date="19241011" hc="nd" vc="waba" hn="Notre Dame" vn="Wabash" hs="34" vs="0" event_name="Wabash @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241018">
+		<event id="2035505" local_time="TBA" eastern_time="TBA" eastern_date="19241018" hc="army" vc="nd" hn="Army" vn="Notre Dame" hs="7" vs="13" event_name="Notre Dame @ Army" tournament="" location="Manhattan, N.Y. (Polo Grounds)" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241025">
+		<event id="1610536" local_time="TBA" eastern_time="TBA" eastern_date="19241025" hc="prin" vc="nd" hn="Princeton" vn="Notre Dame" hs="0" vs="12" event_name="Notre Dame @ Princeton" tournament="" location="Princeton, N.J." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241101">
+		<event id="1610537" local_time="TBA" eastern_time="TBA" eastern_date="19241101" hc="nd" vc="geot" hn="Notre Dame" vn="Georgia Tech" hs="34" vs="3" event_name="Georgia Tech @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241108">
+		<event id="1610540" local_time="TBA" eastern_time="TBA" eastern_date="19241108" hc="wis" vc="nd" hn="Wisconsin" vn="Notre Dame" hs="3" vs="38" event_name="Notre Dame @ Wisconsin" tournament="" location="Madison, Wis." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241115">
+		<event id="1610541" local_time="TBA" eastern_time="TBA" eastern_date="19241115" hc="nd" vc="neb" hn="Notre Dame" vn="Nebraska" hs="34" vs="6" event_name="Nebraska @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241122">
+		<event id="1610543" local_time="TBA" eastern_time="TBA" eastern_date="19241122" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="6" vs="13" event_name="Notre Dame @ Northwestern" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19241129">
+		<event id="1610545" local_time="TBA" eastern_time="TBA" eastern_date="19241129" hc="carn" vc="nd" hn="Carnegie Mellon" vn="Notre Dame" hs="19" vs="40" event_name="Carnegie Tech" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19250101">
+		<event id="1610548" local_time="TBA" eastern_time="TBA" eastern_date="19250101" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="10" vs="27" event_name="Notre Dame @ Stanford" tournament="Rose Bowl" location="Pasadena, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>3</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>3</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

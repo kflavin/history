@@ -1,0 +1,68 @@
+<game_days>
+	<event_date date="20130831">
+		<event id="1579221" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20130831" hc="nd" vc="tem" hn="Notre Dame" vn="Temple" hs="28" vs="6" event_name="Temple @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20130907">
+		<event id="1579222" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20130907" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="41" vs="30" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20130914">
+		<event id="1579223" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20130914" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="24" vs="31" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20130921">
+		<event id="1579224" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20130921" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="17" vs="13" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20130928">
+		<event id="1579227" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20130928" hc="nd" vc="okla" hn="Notre Dame" vn="Oklahoma" hs="21" vs="35" event_name="Oklahoma @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131005">
+		<event id="1579228" local_time="6:30 PM CT" eastern_time="19:30" eastern_date="20131005" hc="nd" vc="asu" hn="Notre Dame" vn="Arizona State" hs="37" vs="34" event_name="Arizona State @ Notre Dame" tournament="Shamrock Series - AT&amp;T Stadium" location="Arlington, Texas" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131019">
+		<event id="1579229" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20131019" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="14" vs="10" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131026">
+		<event id="1579232" local_time="3:00 PM MT" eastern_time="17:00" eastern_date="20131026" hc="afa" vc="nd" hn="Air Force" vn="Notre Dame" hs="10" vs="45" event_name="Notre Dame @ Air Force" tournament="" location="USAFA, Colo." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131102">
+		<event id="1579235" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20131102" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="38" vs="34" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131109">
+		<event id="1579236" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20131109" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="28" vs="21" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131123">
+		<event id="1579241" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20131123" hc="nd" vc="byu" hn="Notre Dame" vn="BYU" hs="23" vs="13" event_name="BYU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131130">
+		<event id="1772743" local_time="4:00 PM PT" eastern_time="19:00" eastern_date="20131130" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="27" vs="20" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20131228">
+		<event id="1775757" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20131228" hc="nd" vc="rutu" hn="Notre Dame" vn="Rutgers" hs="29" vs="16" event_name="Rutgers @ Notre Dame" tournament="New Era Pinstripe Bowl - Yankee Stadium" location="Bronx, N.Y." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20140412">
+		<event id="1793124" local_time="12:30 PM ET" eastern_time="12:30" eastern_date="20140412" hc="nd" vc="NLST" hn="Notre Dame" vn="Blue-Gold Spring Game" hs="" vs="" event_name=" @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="1">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>0</wins>
+			<losses>4</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>0</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>0</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>0</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

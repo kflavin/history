@@ -1,0 +1,24 @@
+<game_days>
+	<event_date date="18891114">
+		<event id="1611254" local_time="TBA" eastern_time="TBA" eastern_date="18891114" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="0" vs="9" event_name="Notre Dame @ Northwestern" tournament="" location="Evanston, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>0</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+	</record>
+</game_days>

@@ -1,0 +1,50 @@
+<game_days>
+	<event_date date="19041001">
+		<event id="1611056" local_time="TBA" eastern_time="TBA" eastern_date="19041001" hc="nd" vc="waba" hn="Notre Dame" vn="Wabash" hs="12" vs="4" event_name="Wabash @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041008">
+		<event id="1611059" local_time="TBA" eastern_time="TBA" eastern_date="19041008" hc="nd" vc="ammd" hn="Notre Dame" vn="American Medical" hs="44" vs="0" event_name="American Medical @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041015">
+		<event id="1611062" local_time="TBA" eastern_time="TBA" eastern_date="19041015" hc="wis" vc="nd" hn="Wisconsin" vn="Notre Dame" hs="58" vs="0" event_name="Notre Dame @ Wisconsin" tournament="" location="Milwaukee, Wis." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041022">
+		<event id="1611072" local_time="TBA" eastern_time="TBA" eastern_date="19041022" hc="ohmu" vc="nd" hn="Ohio Medical University" vn="Notre Dame" hs="5" vs="17" event_name="Notre Dame @ Ohio Medical University" tournament="" location="Columbus, Ohio" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041027">
+		<event id="1611073" local_time="TBA" eastern_time="TBA" eastern_date="19041027" hc="nd" vc="tola" hn="Notre Dame" vn="Toledo Athletic Association" hs="6" vs="0" event_name="Toledo Athletic Association @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041105">
+		<event id="1611074" local_time="TBA" eastern_time="TBA" eastern_date="19041105" hc="kan" vc="nd" hn="Kansas" vn="Notre Dame" hs="24" vs="5" event_name="Notre Dame @ Kansas" tournament="" location="Lawrence, Kan." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041119">
+		<event id="1611075" local_time="TBA" eastern_time="TBA" eastern_date="19041119" hc="nd" vc="dapw" hn="Notre Dame" vn="DePauw" hs="10" vs="0" event_name="DePauw" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19041124">
+		<event id="1611076" local_time="TBA" eastern_time="TBA" eastern_date="19041124" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="36" vs="0" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>5</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>0</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

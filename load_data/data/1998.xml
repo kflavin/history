@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="19980905">
+		<event id="1489105" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="19980905" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="36" vs="20" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19980912">
+		<event id="1489106" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="19980912" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="45" vs="23" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19980926">
+		<event id="1489115" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="19980926" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="31" vs="30" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981003">
+		<event id="1489117" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="19981003" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="35" vs="17" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981010">
+		<event id="1489118" local_time="TBA" eastern_time="TBA" eastern_date="19981010" hc="asu" vc="nd" hn="Arizona State" vn="Notre Dame" hs="9" vs="28" event_name="Notre Dame @ Arizona State" tournament="" location="Tempe, Ariz." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981024">
+		<event id="1489121" local_time="TBA" eastern_time="TBA" eastern_date="19981024" hc="nd" vc="army" hn="Notre Dame" vn="Army" hs="20" vs="17" event_name="Army @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981031">
+		<event id="1489123" local_time="TBA" eastern_time="TBA" eastern_date="19981031" hc="nd" vc="bay" hn="Notre Dame" vn="Baylor" hs="27" vs="3" event_name="Baylor @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981107">
+		<event id="1489126" local_time="TBA" eastern_time="TBA" eastern_date="19981107" hc="bc" vc="nd" hn="Boston College" vn="Notre Dame" hs="26" vs="31" event_name="Notre Dame @ Boston College" tournament="" location="Chestnut Hill, Mass." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981114">
+		<event id="1489128" local_time="TBA" eastern_time="TBA" eastern_date="19981114" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="0" vs="30" event_name="Notre Dame @ Navy" tournament="" location="Raljon, Md." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981121">
+		<event id="1489129" local_time="TBA" eastern_time="TBA" eastern_date="19981121" hc="nd" vc="lsu" hn="Notre Dame" vn="Louisiana State" hs="39" vs="36" event_name="Louisiana State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19981128">
+		<event id="1489130" local_time="TBA" eastern_time="TBA" eastern_date="19981128" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="10" vs="0" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19990101">
+		<event id="1489131" local_time="TBA" eastern_time="TBA" eastern_date="19990101" hc="geot" vc="nd" hn="Georgia Tech" vn="Notre Dame" hs="35" vs="28" event_name="Notre Dame @ Georgia Tech" tournament="Gator Bowl" location="Jacksonville, Fla." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>9</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>6</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>2</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

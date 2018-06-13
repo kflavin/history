@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="19770910">
+		<event id="1512753" local_time="TBA" eastern_time="TBA" eastern_date="19770910" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="9" vs="19" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19770917">
+		<event id="1512755" local_time="TBA" eastern_time="TBA" eastern_date="19770917" hc="ole" vc="nd" hn="Ole Miss" vn="Notre Dame" hs="20" vs="13" event_name="Notre Dame @ Ole Miss" tournament="" location="Jackson, Miss." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19770924">
+		<event id="1512758" local_time="TBA" eastern_time="TBA" eastern_date="19770924" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="24" vs="31" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771001">
+		<event id="1512763" local_time="TBA" eastern_time="TBA" eastern_date="19771001" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="16" vs="6" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771015">
+		<event id="1512769" local_time="TBA" eastern_time="TBA" eastern_date="19771015" hc="army" vc="nd" hn="Army" vn="Notre Dame" hs="0" vs="24" event_name="Notre Dame @ Army" tournament="" location="East Rutherford, N.J." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771020">
+		<event id="1512775" local_time="TBA" eastern_time="TBA" eastern_date="19771020" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="49" vs="19" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771029">
+		<event id="1512777" local_time="TBA" eastern_time="TBA" eastern_date="19771029" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="43" vs="10" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771105">
+		<event id="1512778" local_time="TBA" eastern_time="TBA" eastern_date="19771105" hc="nd" vc="geot" hn="Notre Dame" vn="Georgia Tech" hs="69" vs="14" event_name="Georgia Tech @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771112">
+		<event id="1512781" local_time="TBA" eastern_time="TBA" eastern_date="19771112" hc="clem" vc="nd" hn="Clemson" vn="Notre Dame" hs="17" vs="21" event_name="Notre Dame @ Clemson" tournament="" location="Clemson, S.C." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771119">
+		<event id="1512782" local_time="TBA" eastern_time="TBA" eastern_date="19771119" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="49" vs="0" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19771203">
+		<event id="1512784" local_time="TBA" eastern_time="TBA" eastern_date="19771203" hc="mifl" vc="nd" hn="Miami" vn="Notre Dame" hs="10" vs="48" event_name="Notre Dame @ Miami" tournament="" location="Miami, Fla." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19780102">
+		<event id="1512791" local_time="TBA" eastern_time="TBA" eastern_date="19780102" hc="tex" vc="nd" hn="Texas" vn="Notre Dame" hs="10" vs="38" event_name="Notre Dame @ Texas" tournament="Cotton Bowl" location="Dallas, Texas" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>11</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>4</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>2</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

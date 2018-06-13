@@ -1,0 +1,56 @@
+<game_days>
+	<event_date date="19510929">
+		<event id="1561135" local_time="TBA" eastern_time="TBA" eastern_date="19510929" hc="nd" vc="ind" hn="Notre Dame" vn="Indiana" hs="48" vs="6" event_name="Indiana @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511005">
+		<event id="1561137" local_time="TBA" eastern_time="TBA" eastern_date="19511005" hc="detm" vc="nd" hn="Detroit" vn="Notre Dame" hs="6" vs="40" event_name="Notre Dame @ Detroit" tournament="" location="Detroit, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511013">
+		<event id="1561139" local_time="TBA" eastern_time="TBA" eastern_date="19511013" hc="nd" vc="smu" hn="Notre Dame" vn="SMU" hs="20" vs="27" event_name="SMU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511020">
+		<event id="1561140" local_time="TBA" eastern_time="TBA" eastern_date="19511020" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="0" vs="33" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511027">
+		<event id="1561141" local_time="TBA" eastern_time="TBA" eastern_date="19511027" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="30" vs="9" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511103">
+		<event id="1561145" local_time="TBA" eastern_time="TBA" eastern_date="19511103" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="0" vs="19" event_name="Notre Dame @ Navy" tournament="" location="Baltimore, Md." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511110">
+		<event id="1561146" local_time="TBA" eastern_time="TBA" eastern_date="19511110" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="35" vs="0" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511117">
+		<event id="1561158" local_time="TBA" eastern_time="TBA" eastern_date="19511117" hc="unc" vc="nd" hn="North Carolina" vn="Notre Dame" hs="7" vs="12" event_name="Notre Dame @ North Carolina" tournament="" location="Chapel Hill, N.C." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511124">
+		<event id="1561160" local_time="TBA" eastern_time="TBA" eastern_date="19511124" hc="nd" vc="iowa" hn="Notre Dame" vn="Iowa" hs="20" vs="20" event_name="Iowa @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19511201">
+		<event id="1561162" local_time="TBA" eastern_time="TBA" eastern_date="19511201" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="12" vs="19" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>7</wins>
+			<losses>2</losses>
+			<ties>1</ties>
+		</overall>
+		<home>
+			<wins>2</wins>
+			<losses>1</losses>
+			<ties>1</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>2</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

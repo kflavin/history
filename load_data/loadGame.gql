@@ -1,0 +1,13 @@
+mutation {
+	createGame(
+		home: True
+		opponent: Ohio State
+		score1: 20
+		score2: 34
+		result: LOSS
+		date: 20060102
+		season: 2005
+	) {
+		result
+	}
+}

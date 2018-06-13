@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="19940903">
+		<event id="1489584" local_time="TBA" eastern_time="TBA" eastern_date="19940903" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="15" vs="42" event_name="Notre Dame @ Northwestern" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19940910">
+		<event id="1489585" local_time="TBA" eastern_time="TBA" eastern_date="19940910" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="24" vs="26" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19940917">
+		<event id="1489586" local_time="TBA" eastern_time="TBA" eastern_date="19940917" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="20" vs="21" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19940924">
+		<event id="1489588" local_time="TBA" eastern_time="TBA" eastern_date="19940924" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="39" vs="21" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941001">
+		<event id="1489589" local_time="TBA" eastern_time="TBA" eastern_date="19941001" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="34" vs="15" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941008">
+		<event id="1489590" local_time="TBA" eastern_time="TBA" eastern_date="19941008" hc="bc" vc="nd" hn="Boston College" vn="Notre Dame" hs="30" vs="11" event_name="Notre Dame @ Boston College" tournament="" location="Chestnut Hill, Mass." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941015">
+		<event id="1489591" local_time="TBA" eastern_time="TBA" eastern_date="19941015" hc="nd" vc="byu" hn="Notre Dame" vn="BYU" hs="14" vs="21" event_name="BYU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941029">
+		<event id="1489592" local_time="TBA" eastern_time="TBA" eastern_date="19941029" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="58" vs="21" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941112">
+		<event id="1489593" local_time="TBA" eastern_time="TBA" eastern_date="19941112" hc="fsu" vc="nd" hn="Florida State" vn="Notre Dame" hs="23" vs="16" event_name="Notre Dame @ Florida State" tournament="" location="Orlando, Fla." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941119">
+		<event id="1489587" local_time="TBA" eastern_time="TBA" eastern_date="19941119" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="42" vs="30" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19941126">
+		<event id="1489594" local_time="TBA" eastern_time="TBA" eastern_date="19941126" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="17" vs="17" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19950102">
+		<event id="1489595" local_time="TBA" eastern_time="TBA" eastern_date="19950102" hc="colo" vc="nd" hn="Colorado" vn="Notre Dame" hs="41" vs="24" event_name="Notre Dame @ CU" tournament="Fiesta Bowl" location="Tempe, Ariz." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>3</neutral_site_games>
+		<overall>
+			<wins>6</wins>
+			<losses>5</losses>
+			<ties>1</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>1</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

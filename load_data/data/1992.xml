@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="19920905">
+		<event id="1489407" local_time="TBA" eastern_time="TBA" eastern_date="19920905" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="7" vs="42" event_name="Notre Dame @ Northwestern" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19920912">
+		<event id="1489410" local_time="TBA" eastern_time="TBA" eastern_date="19920912" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="17" vs="17" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19920919">
+		<event id="1489411" local_time="TBA" eastern_time="TBA" eastern_date="19920919" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="31" vs="52" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19920926">
+		<event id="1489412" local_time="TBA" eastern_time="TBA" eastern_date="19920926" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="48" vs="0" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921003">
+		<event id="1489414" local_time="TBA" eastern_time="TBA" eastern_date="19921003" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="16" vs="33" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921010">
+		<event id="1489417" local_time="TBA" eastern_time="TBA" eastern_date="19921010" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="21" vs="52" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921024">
+		<event id="1489419" local_time="TBA" eastern_time="TBA" eastern_date="19921024" hc="nd" vc="byu" hn="Notre Dame" vn="BYU" hs="42" vs="16" event_name="BYU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921031">
+		<event id="1489423" local_time="TBA" eastern_time="TBA" eastern_date="19921031" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="7" vs="38" event_name="Notre Dame @ Navy" tournament="" location="East Rutherford, N.J." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921107">
+		<event id="1489425" local_time="TBA" eastern_time="TBA" eastern_date="19921107" hc="nd" vc="bc" hn="Notre Dame" vn="Boston College" hs="54" vs="7" event_name="Boston College @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921114">
+		<event id="1489427" local_time="TBA" eastern_time="TBA" eastern_date="19921114" hc="nd" vc="psu" hn="Notre Dame" vn="Penn State" hs="17" vs="16" event_name="Penn State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19921128">
+		<event id="1489429" local_time="TBA" eastern_time="TBA" eastern_date="19921128" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="23" vs="31" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19930101">
+		<event id="1489431" local_time="TBA" eastern_time="TBA" eastern_date="19930101" hc="tam" vc="nd" hn="Texas A&amp;M" vn="Notre Dame" hs="3" vs="28" event_name="Notre Dame @ Texas A&amp;M" tournament="Cotton Bowl" location="Dallas, Texas" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>3</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>1</losses>
+			<ties>1</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>1</losses>
+			<ties>1</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>3</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

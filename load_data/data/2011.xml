@@ -1,0 +1,68 @@
+<game_days>
+	<event_date date="20110903">
+		<event id="1347648" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20110903" hc="nd" vc="sfla" hn="Notre Dame" vn="USF" hs="20" vs="23" event_name="USF @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20110910">
+		<event id="1347650" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20110910" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="35" vs="31" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20110917">
+		<event id="1347652" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20110917" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="31" vs="13" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20110924">
+		<event id="1347655" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20110924" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="12" vs="15" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111001">
+		<event id="1347656" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20111001" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="10" vs="38" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111008">
+		<event id="1347659" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20111008" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="59" vs="33" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111022">
+		<event id="1347661" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20111022" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="17" vs="31" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111029">
+		<event id="1347663" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20111029" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="56" vs="14" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111105">
+		<event id="1347664" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20111105" hc="wake" vc="nd" hn="Wake Forest" vn="Notre Dame" hs="17" vs="24" event_name="Notre Dame @ Wake Forest" tournament="" location="Winston-Salem, N.C." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111112">
+		<event id="1347665" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20111112" hc="nd" vc="md" hn="Notre Dame" vn="Maryland" hs="45" vs="21" event_name="Maryland @ Notre Dame" tournament="" location="Landover, Md." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111119">
+		<event id="1347666" local_time="4:00 PM ET" eastern_time="16:00" eastern_date="20111119" hc="nd" vc="bc" hn="Notre Dame" vn="Boston College" hs="16" vs="14" event_name="Boston College @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111126">
+		<event id="1347667" local_time="5:00 PM PT" eastern_time="20:00" eastern_date="20111126" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="28" vs="14" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20111229">
+		<event id="1456049" local_time="5:30 PM ET" eastern_time="17:30" eastern_date="20111229" hc="nd" vc="fsu" hn="Notre Dame" vn="Florida State" hs="14" vs="18" event_name="Florida State @ Notre Dame" tournament="Champs Sports Bowl" location="Orlando, Fla." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20120421">
+		<event id="1485086" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20120421" hc="nd" vc="" hn="Notre Dame" vn="" hs="" vs="" event_name=" @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="no" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>8</wins>
+			<losses>5</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

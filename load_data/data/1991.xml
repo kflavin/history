@@ -1,0 +1,65 @@
+<game_days>
+	<event_date date="19910907">
+		<event id="1489598" local_time="TBA" eastern_time="TBA" eastern_date="19910907" hc="nd" vc="ind" hn="Notre Dame" vn="Indiana" hs="49" vs="27" event_name="Indiana @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19910914">
+		<event id="1489599" local_time="TBA" eastern_time="TBA" eastern_date="19910914" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="24" vs="14" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19910921">
+		<event id="1489600" local_time="TBA" eastern_time="TBA" eastern_date="19910921" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="49" vs="10" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19910928">
+		<event id="1489601" local_time="TBA" eastern_time="TBA" eastern_date="19910928" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="20" vs="45" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911005">
+		<event id="1489602" local_time="TBA" eastern_time="TBA" eastern_date="19911005" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="26" vs="42" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911012">
+		<event id="1489603" local_time="TBA" eastern_time="TBA" eastern_date="19911012" hc="nd" vc="pitt" hn="Notre Dame" vn="Pittsburgh" hs="42" vs="7" event_name="Pittsburgh @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911019">
+		<event id="1489597" local_time="TBA" eastern_time="TBA" eastern_date="19911019" hc="afa" vc="nd" hn="Air Force" vn="Notre Dame" hs="15" vs="28" event_name="Notre Dame @ Air Force" tournament="" location="Colorado Springs, Colo." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911026">
+		<event id="1489604" local_time="TBA" eastern_time="TBA" eastern_date="19911026" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="24" vs="20" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911102">
+		<event id="1489605" local_time="TBA" eastern_time="TBA" eastern_date="19911102" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="38" vs="0" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911109">
+		<event id="1489606" local_time="TBA" eastern_time="TBA" eastern_date="19911109" hc="nd" vc="tenn" hn="Notre Dame" vn="Tennessee" hs="34" vs="35" event_name="Tennessee @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911116">
+		<event id="1489607" local_time="TBA" eastern_time="TBA" eastern_date="19911116" hc="psu" vc="nd" hn="Penn State" vn="Notre Dame" hs="35" vs="13" event_name="Notre Dame @ Penn State" tournament="" location="University Park, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19911130">
+		<event id="1489608" local_time="TBA" eastern_time="TBA" eastern_date="19911130" hc="haw" vc="nd" hn="Hawaii" vn="Notre Dame" hs="42" vs="48" event_name="Notre Dame @ Hawaii" tournament="" location="Honolulu, Hawai&apos;i" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19920101">
+		<event id="1489609" local_time="TBA" eastern_time="TBA" eastern_date="19920101" hc="fla" vc="nd" hn="Florida" vn="Notre Dame" hs="28" vs="39" event_name="Notre Dame @ Florida" tournament="Sugar Bowl" location="New Orleans, La." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>4</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

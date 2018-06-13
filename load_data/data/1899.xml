@@ -1,0 +1,51 @@
+<game_days>
+	<event_date date="18990927">
+		<event id="1611166" local_time="TBA" eastern_time="TBA" eastern_date="18990927" hc="nd" vc="egil" hn="Notre Dame" vn="Englewood HS" hs="29" vs="5" event_name="Englewood High School" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18990929">
+		<event id="1611167" local_time="TBA" eastern_time="TBA" eastern_date="18990929" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="40" vs="0" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991004">
+		<event id="1611169" local_time="TBA" eastern_time="TBA" eastern_date="18991004" hc="chgo" vc="nd" hn="Chicago" vn="Notre Dame" hs="23" vs="6" event_name="Notre Dame @ Chicago" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991014">
+		<event id="1611172" local_time="TBA" eastern_time="TBA" eastern_date="18991014" hc="nd" vc="lakf" hn="Notre Dame" vn="Lake Forest" hs="38" vs="0" event_name="Lake Forest @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991018">
+		<event id="1611173" local_time="TBA" eastern_time="TBA" eastern_date="18991018" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="12" vs="0" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991023">
+		<event id="1611175" local_time="TBA" eastern_time="TBA" eastern_date="18991023" hc="nd" vc="ind" hn="Notre Dame" vn="Indiana" hs="17" vs="0" event_name="Indiana @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991027">
+		<event id="1611177" local_time="TBA" eastern_time="TBA" eastern_date="18991027" hc="nd" vc="nw" hn="Notre Dame" vn="Northwestern" hs="12" vs="0" event_name="Northwestern @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991104">
+		<event id="1611180" local_time="TBA" eastern_time="TBA" eastern_date="18991104" hc="nd" vc="rshm" hn="Notre Dame" vn="Rush Medical" hs="17" vs="0" event_name="Rush Medical @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991118">
+		<event id="1611182" local_time="TBA" eastern_time="TBA" eastern_date="18991118" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="10" vs="10" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="18991130">
+		<event id="1611185" local_time="TBA" eastern_time="TBA" eastern_date="18991130" hc="nd" vc="chps" hn="Notre Dame" vn="Chicago Physicians &amp; Surgeons" hs="0" vs="5" event_name="Chicago Physicians &amp; Surgeons @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>6</wins>
+			<losses>3</losses>
+			<ties>1</ties>
+		</overall>
+		<home>
+			<wins>6</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>0</wins>
+			<losses>2</losses>
+			<ties>1</ties>
+		</away>
+	</record>
+</game_days>

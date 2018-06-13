@@ -1,0 +1,53 @@
+<game_days>
+	<event_date date="19191004">
+		<event id="1610652" local_time="TBA" eastern_time="TBA" eastern_date="19191004" hc="nd" vc="kala" hn="Notre Dame" vn="Kalamazoo" hs="14" vs="0" event_name="Kalamazoo @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191011">
+		<event id="1610653" local_time="TBA" eastern_time="TBA" eastern_date="19191011" hc="nd" vc="mtun" hn="Notre Dame" vn="Mount Union" hs="60" vs="7" event_name="Mount Union @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191018">
+		<event id="1610658" local_time="TBA" eastern_time="TBA" eastern_date="19191018" hc="neb" vc="nd" hn="Nebraska" vn="Notre Dame" hs="9" vs="14" event_name="Notre Dame @ Nebraska" tournament="" location="Lincoln, Neb." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191025">
+		<event id="1610660" local_time="TBA" eastern_time="TBA" eastern_date="19191025" hc="nd" vc="wmu" hn="Notre Dame" vn="Western Michigan" hs="53" vs="0" event_name="Western Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191101">
+		<event id="1610661" local_time="TBA" eastern_time="TBA" eastern_date="19191101" hc="ind" vc="nd" hn="Indiana" vn="Notre Dame" hs="3" vs="16" event_name="Notre Dame @ Indiana" tournament="" location="Indianapolis, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191108">
+		<event id="1610663" local_time="TBA" eastern_time="TBA" eastern_date="19191108" hc="army" vc="nd" hn="Army" vn="Notre Dame" hs="9" vs="12" event_name="Notre Dame @ Army" tournament="" location="West Point, N.Y." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191115">
+		<event id="1610664" local_time="TBA" eastern_time="TBA" eastern_date="19191115" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="13" vs="0" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191122">
+		<event id="1610666" local_time="TBA" eastern_time="TBA" eastern_date="19191122" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="13" vs="33" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19191127">
+		<event id="1610670" local_time="TBA" eastern_time="TBA" eastern_date="19191127" hc="mgsd" vc="nd" hn="Morningside" vn="Notre Dame" hs="6" vs="14" event_name="Notre Dame @ Morningside" tournament="" location="Sioux City, Iowa" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>9</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

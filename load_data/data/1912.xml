@@ -1,0 +1,47 @@
+<game_days>
+	<event_date date="19121005">
+		<event id="1610918" local_time="TBA" eastern_time="TBA" eastern_date="19121005" hc="nd" vc="stvc" hn="Notre Dame" vn="St. Viator College" hs="116" vs="7" event_name="St. Viator" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121012">
+		<event id="1610919" local_time="TBA" eastern_time="TBA" eastern_date="19121012" hc="nd" vc="adri" hn="Notre Dame" vn="Adrian" hs="74" vs="7" event_name="Adrian @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121019">
+		<event id="1610920" local_time="TBA" eastern_time="TBA" eastern_date="19121019" hc="nd" vc="char" hn="Notre Dame" vn="Charleston (WV)" hs="39" vs="0" event_name="Charleston (WV) @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121026">
+		<event id="1610921" local_time="TBA" eastern_time="TBA" eastern_date="19121026" hc="nd" vc="waba" hn="Notre Dame" vn="Wabash" hs="41" vs="6" event_name="Wabash @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121102">
+		<event id="1610922" local_time="TBA" eastern_time="TBA" eastern_date="19121102" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="0" vs="3" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121109">
+		<event id="1610923" local_time="TBA" eastern_time="TBA" eastern_date="19121109" hc="stlo" vc="nd" hn="Saint Louis" vn="Notre Dame" hs="7" vs="47" event_name="Notre Dame @ Saint Louis" tournament="" location="St. Louis, Mo." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19121128">
+		<event id="1610924" local_time="TBA" eastern_time="TBA" eastern_date="19121128" hc="marq" vc="nd" hn="Marquette" vn="Notre Dame" hs="0" vs="69" event_name="Notre Dame @ Marquette" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>7</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>2</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

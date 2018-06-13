@@ -1,0 +1,65 @@
+<game_days>
+	<event_date date="20160904">
+		<event id="1976106" local_time="6:30 PM CT" eastern_time="19:30" eastern_date="20160904" hc="tex" vc="nd" hn="Texas" vn="Notre Dame" hs="50" vs="47" event_name="Notre Dame @ Texas" tournament="" location="Austin, Texas" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20160910">
+		<event id="1778939" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20160910" hc="nd" vc="unv" hn="Notre Dame" vn="Nevada" hs="39" vs="10" event_name="Nevada @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20160917">
+		<event id="1778940" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20160917" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="28" vs="36" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20160924">
+		<event id="1778941" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20160924" hc="nd" vc="duke" hn="Notre Dame" vn="Duke" hs="35" vs="38" event_name="Duke @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161001">
+		<event id="1778942" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20161001" hc="syr" vc="nd" hn="Syracuse" vn="Notre Dame" hs="33" vs="50" event_name="Notre Dame @ Syracuse" tournament="" location="East Rutherford, N.J.&lt;br&gt;(MetLife Stadium)" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161008">
+		<event id="1778943" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20161008" hc="ncst" vc="nd" hn="NC State" vn="Notre Dame" hs="10" vs="3" event_name="Notre Dame @ NC State" tournament="" location="Raleigh, N.C." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161015">
+		<event id="1778944" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20161015" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="10" vs="17" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161029">
+		<event id="1778945" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20161029" hc="nd" vc="mifl" hn="Notre Dame" vn="Miami (Fla.)" hs="30" vs="27" event_name="Miami (Fla.) @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161105">
+		<event id="1778946" local_time="11:30 AM ET" eastern_time="11:30" eastern_date="20161105" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="28" vs="27" event_name="Notre Dame @ Navy" tournament="" location="Jacksonville, Fla.&lt;br&gt;(EverBank Field)" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="yes" position="1"/>
+	</event_date>
+	<event_date date="20161112">
+		<event id="1778947" local_time="2:30 PM CT" eastern_time="15:30" eastern_date="20161112" hc="nd" vc="army" hn="Notre Dame" vn="Army" hs="44" vs="6" event_name="Army @ Notre Dame" tournament="Shamrock Series" location="San Antonio, Texas&lt;br&gt;(Alamodome)" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161119">
+		<event id="1778948" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20161119" hc="nd" vc="vtec" hn="Notre Dame" vn="Virginia Tech" hs="31" vs="34" event_name="Virginia Tech @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20161126">
+		<event id="1990881" local_time="12:30 PM PT" eastern_time="15:30" eastern_date="20161126" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="45" vs="27" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20170422">
+		<event id="2033146" local_time="12:30 PM ET" eastern_time="12:30" eastern_date="20170422" hc="nd" vc="" hn="Notre Dame" vn="" hs="27" vs="14" event_name=" @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="no" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>3</neutral_site_games>
+		<overall>
+			<wins>4</wins>
+			<losses>8</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>2</wins>
+			<losses>4</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>0</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>2</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

@@ -1,0 +1,65 @@
+<game_days>
+	<event_date date="20060902">
+		<event id="587949" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20060902" hc="geot" vc="nd" hn="Georgia Tech" vn="Notre Dame" hs="10" vs="14" event_name="Notre Dame @ Georgia Tech" tournament="" location="Atlanta, GA" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20060909">
+		<event id="587952" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20060909" hc="nd" vc="psu" hn="Notre Dame" vn="Penn State" hs="41" vs="17" event_name="Penn State @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20060916">
+		<event id="587953" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20060916" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="21" vs="47" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20060923">
+		<event id="587954" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20060923" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="37" vs="40" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, MI" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20060930">
+		<event id="587955" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20060930" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="35" vs="21" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061007">
+		<event id="587956" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20061007" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="31" vs="10" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061021">
+		<event id="587959" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20061021" hc="nd" vc="ucla" hn="Notre Dame" vn="UCLA" hs="20" vs="17" event_name="UCLA @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061028">
+		<event id="587960" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20061028" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="14" vs="38" event_name="Notre Dame @ Navy" tournament="" location="Baltimore, MD" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061104">
+		<event id="587961" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20061104" hc="nd" vc="unc" hn="Notre Dame" vn="North Carolina" hs="45" vs="26" event_name="North Carolina @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061111">
+		<event id="587962" local_time="4:00 PM ET" eastern_time="16:00" eastern_date="20061111" hc="afa" vc="nd" hn="Air Force" vn="Notre Dame" hs="17" vs="39" event_name="Notre Dame @ Air Force" tournament="" location="Colorado Springs, CO" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="yes" position="1"/>
+	</event_date>
+	<event_date date="20061118">
+		<event id="587963" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20061118" hc="nd" vc="army" hn="Notre Dame" vn="Army" hs="41" vs="9" event_name="Army @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20061125">
+		<event id="587964" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20061125" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="44" vs="24" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, CA" headtohead="yes" gametracker="yes" gameaudio="yes" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20070103">
+		<event id="728789" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20070103" hc="lsu" vc="nd" hn="Louisiana State" vn="Notre Dame" hs="41" vs="14" event_name="Notre Dame @ LSU" tournament="" location="New Orleans, LA" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>3</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

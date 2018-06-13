@@ -1,0 +1,60 @@
+<game_days>
+	<event_date date="19990828">
+		<event id="20312" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="19990828" hc="nd" vc="kan" hn="Notre Dame" vn="Kansas" hs="48" vs="13" event_name="Kansas @ Notre Dame" tournament="" location="South Bend, Ind. (Eddie Robinson Classic)" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19990904">
+		<event id="20853" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="19990904" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="26" vs="22" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19990911">
+		<event id="21227" local_time="2:30 PM CT" eastern_time="15:30" eastern_date="19990911" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="23" vs="28" event_name="Purdue @ Notre Dame" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19990918">
+		<event id="22082" local_time="1:30 PM ET" eastern_time="14:30" eastern_date="19990918" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="23" vs="13" event_name="Notre Dame @ Michigan State" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991002">
+		<event id="23722" local_time="1:30 PM ET" eastern_time="14:30" eastern_date="19991002" hc="nd" vc="okla" hn="Notre Dame" vn="Oklahoma" hs="34" vs="30" event_name="Oklahoma @ Notre Dame" tournament="" location="South Bend, Ind" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991009">
+		<event id="24486" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="19991009" hc="nd" vc="asu" hn="Notre Dame" vn="Arizona State" hs="48" vs="17" event_name="Arizona State @ Notre Dame" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991016">
+		<event id="25377" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="19991016" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="25" vs="24" event_name="USC @ Notre Dame" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991030">
+		<event id="27202" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="19991030" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="28" vs="24" event_name="Navy @ Notre Dame" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991106">
+		<event id="27878" local_time="TBA" eastern_time="TBA" eastern_date="19991106" hc="tenn" vc="nd" hn="Tennessee" vn="Notre Dame" hs="38" vs="14" event_name="Notre Dame @ Tennessee" tournament="" location="Knoxville, Tenn." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991113">
+		<event id="28872" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="19991113" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="37" vs="27" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991120">
+		<event id="29565" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="19991120" hc="nd" vc="bc" hn="Notre Dame" vn="Boston College" hs="29" vs="31" event_name="Boston College @ Notre Dame" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19991127">
+		<event id="30105" local_time="5:00 PM PT" eastern_time="20:00" eastern_date="19991127" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="40" vs="37" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20000429">
+		<event id="56144" local_time="1:30 PM CT" eastern_time="14:30" eastern_date="20000429" hc="nd" vc="NLST" hn="Notre Dame" vn="Blue-Gold Game" hs="" vs="" event_name=" @ Notre Dame" tournament="" location="South Bend, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>5</wins>
+			<losses>7</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>0</wins>
+			<losses>4</losses>
+			<ties>0</ties>
+		</away>
+	</record>
+</game_days>

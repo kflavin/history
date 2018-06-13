@@ -1,0 +1,53 @@
+<game_days>
+	<event_date date="19081003">
+		<event id="1610981" local_time="TBA" eastern_time="TBA" eastern_date="19081003" hc="nd" vc="hill" hn="Notre Dame" vn="Hillsdale" hs="39" vs="0" event_name="Hillsdale @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081010">
+		<event id="1610982" local_time="TBA" eastern_time="TBA" eastern_date="19081010" hc="nd" vc="fran" hn="Notre Dame" vn="Franklin" hs="64" vs="0" event_name="Franklin @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081017">
+		<event id="1610983" local_time="TBA" eastern_time="TBA" eastern_date="19081017" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="12" vs="6" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081024">
+		<event id="1610988" local_time="TBA" eastern_time="TBA" eastern_date="19081024" hc="nd" vc="chps" hn="Notre Dame" vn="Chicago Physicians &amp; Surgeons" hs="88" vs="0" event_name="Chicago Physicians &amp; Surgeons @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081029">
+		<event id="1610986" local_time="TBA" eastern_time="TBA" eastern_date="19081029" hc="nd" vc="ohno" hn="Notre Dame" vn="Ohio Northern" hs="58" vs="4" event_name="Ohio Northern @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081107">
+		<event id="1610990" local_time="TBA" eastern_time="TBA" eastern_date="19081107" hc="ind" vc="nd" hn="Indiana" vn="Notre Dame" hs="0" vs="11" event_name="Notre Dame @ Indiana" tournament="" location="Indianapolis, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081113">
+		<event id="1610992" local_time="TBA" eastern_time="TBA" eastern_date="19081113" hc="waba" vc="nd" hn="Wabash" vn="Notre Dame" hs="4" vs="8" event_name="Notre Dame @ Wabash" tournament="" location="Crawfordsville, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081118">
+		<event id="1610993" local_time="TBA" eastern_time="TBA" eastern_date="19081118" hc="nd" vc="stvc" hn="Notre Dame" vn="St. Viator College" hs="46" vs="0" event_name="St. Viator" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19081126">
+		<event id="1610994" local_time="TBA" eastern_time="TBA" eastern_date="19081126" hc="marq" vc="nd" hn="Marquette" vn="Notre Dame" hs="0" vs="6" event_name="Notre Dame @ Marquette" tournament="" location="Milwaukee, Wis." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>8</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>2</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

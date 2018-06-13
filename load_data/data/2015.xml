@@ -1,0 +1,68 @@
+<game_days>
+	<event_date date="20150905">
+		<event id="1778923" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20150905" hc="nd" vc="tex" hn="Notre Dame" vn="Texas" hs="38" vs="3" event_name="Texas @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20150912">
+		<event id="1778924" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20150912" hc="va" vc="nd" hn="Virginia" vn="Notre Dame" hs="27" vs="34" event_name="Notre Dame @ Virginia" tournament="" location="Charlottesville, Va." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20150919">
+		<event id="1778925" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20150919" hc="nd" vc="geot" hn="Notre Dame" vn="Georgia Tech" hs="30" vs="22" event_name="Georgia Tech @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20150926">
+		<event id="1778927" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20150926" hc="nd" vc="umas" hn="Notre Dame" vn="Massachusetts" hs="62" vs="27" event_name="Massachusetts @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151003">
+		<event id="1778928" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20151003" hc="clem" vc="nd" hn="Clemson" vn="Notre Dame" hs="24" vs="22" event_name="Notre Dame @ Clemson" tournament="" location="Clemson, S.C." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151010">
+		<event id="1778929" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20151010" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="41" vs="24" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151017">
+		<event id="1897777" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20151017" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="41" vs="31" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151031">
+		<event id="1778932" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20151031" hc="tem" vc="nd" hn="Temple" vn="Notre Dame" hs="20" vs="24" event_name="Notre Dame @ Temple" tournament="" location="Philadelphia, Pa." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151107">
+		<event id="1778933" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20151107" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="30" vs="42" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151114">
+		<event id="1778934" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20151114" hc="nd" vc="wake" hn="Notre Dame" vn="Wake Forest" hs="28" vs="7" event_name="Wake Forest @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151121">
+		<event id="1778935" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20151121" hc="nd" vc="bc" hn="Notre Dame" vn="Boston College" hs="19" vs="16" event_name="Boston College @ Notre Dame" tournament="Shamrock Series" location="Boston, Mass.&lt;br&gt;(Fenway Park)" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20151128">
+		<event id="1778936" local_time="4:30 PM PT" eastern_time="19:30" eastern_date="20151128" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="38" vs="36" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20160101">
+		<event id="1960045" local_time="1:00 PM ET" eastern_time="13:00" eastern_date="20160101" hc="osu" vc="nd" hn="Ohio State" vn="Notre Dame" hs="44" vs="28" event_name="Notre Dame @ Ohio State" tournament="BattleFrog Fiesta Bowl" location="Glendale, Ariz." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20160416">
+		<event id="1966011" local_time="12:30 PM ET" eastern_time="12:30" eastern_date="20160416" hc="nd" vc="NLST" hn="Notre Dame" vn="Blue-Gold Game" hs="17" vs="7" event_name=" @ Notre Dame" tournament="" location="Notre Dame Stadium" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>6</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

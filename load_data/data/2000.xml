@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="20000902">
+		<event id="61511" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20000902" hc="nd" vc="tam" hn="Notre Dame" vn="Texas A&amp;M" hs="24" vs="10" event_name="Texas A&amp;M @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20000909">
+		<event id="62181" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20000909" hc="nd" vc="neb" hn="Notre Dame" vn="Nebraska" hs="24" vs="27" event_name="Nebraska @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20000916">
+		<event id="63467" local_time="1:00 PM ET" eastern_time="13:00" eastern_date="20000916" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="23" vs="21" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20000923">
+		<event id="64455" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20000923" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="27" vs="21" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001007">
+		<event id="66669" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20001007" hc="nd" vc="stan" hn="Notre Dame" vn="Stanford" hs="20" vs="14" event_name="Stanford @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001014">
+		<event id="67723" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20001014" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="14" vs="45" event_name="Notre Dame @ Navy" tournament="" location="Orlando, Fla." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001021">
+		<event id="68980" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20001021" hc="wvir" vc="nd" hn="West Virginia" vn="Notre Dame" hs="28" vs="42" event_name="Notre Dame @ West Virginia" tournament="" location="Morgantown, W. Va." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001028">
+		<event id="70127" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20001028" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="34" vs="31" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001111">
+		<event id="72471" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20001111" hc="nd" vc="bc" hn="Notre Dame" vn="Boston College" hs="28" vs="16" event_name="Boston College @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001118">
+		<event id="73245" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20001118" hc="rutu" vc="nd" hn="Rutgers" vn="Notre Dame" hs="17" vs="45" event_name="Notre Dame @ Rutgers" tournament="" location="Piscataway, N.J." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20001125">
+		<event id="74111" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20001125" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="21" vs="38" event_name="Notre Dame @ USC" tournament="" location="Los Angeles" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20010101">
+		<event id="76498" local_time="8:30 PM ET" eastern_time="20:30" eastern_date="20010101" hc="nd" vc="orst" hn="Notre Dame" vn="Oregon State" hs="9" vs="41" event_name="Oregon State @ Notre Dame" tournament="" location="Tempe, Ariz. - Tostitos Fiesta Bowl" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>9</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

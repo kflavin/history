@@ -1,0 +1,59 @@
+<game_days>
+	<event_date date="19690920">
+		<event id="1515185" local_time="TBA" eastern_time="TBA" eastern_date="19690920" hc="nd" vc="nw" hn="Notre Dame" vn="Northwestern" hs="35" vs="10" event_name="Northwestern @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19690927">
+		<event id="1515186" local_time="TBA" eastern_time="TBA" eastern_date="19690927" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="28" vs="14" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691004">
+		<event id="1515187" local_time="TBA" eastern_time="TBA" eastern_date="19691004" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="42" vs="28" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691011">
+		<event id="1515188" local_time="TBA" eastern_time="TBA" eastern_date="19691011" hc="army" vc="nd" hn="Army" vn="Notre Dame" hs="0" vs="45" event_name="Notre Dame @ Army" tournament="" location="Bronx, N.Y." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691018">
+		<event id="1515189" local_time="TBA" eastern_time="TBA" eastern_date="19691018" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="14" vs="14" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691025">
+		<event id="1515191" local_time="TBA" eastern_time="TBA" eastern_date="19691025" hc="tul" vc="nd" hn="Tulane" vn="Notre Dame" hs="0" vs="37" event_name="Notre Dame @ Tulane" tournament="" location="New Orleans, La." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691101">
+		<event id="1515193" local_time="TBA" eastern_time="TBA" eastern_date="19691101" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="47" vs="0" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691108">
+		<event id="1515194" local_time="TBA" eastern_time="TBA" eastern_date="19691108" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="7" vs="49" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691115">
+		<event id="1515195" local_time="TBA" eastern_time="TBA" eastern_date="19691115" hc="geot" vc="nd" hn="Georgia Tech" vn="Notre Dame" hs="20" vs="38" event_name="Notre Dame @ Georgia Tech" tournament="" location="Atlanta, Ga." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19691122">
+		<event id="1515196" local_time="TBA" eastern_time="TBA" eastern_date="19691122" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="21" vs="17" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19700101">
+		<event id="1515205" local_time="TBA" eastern_time="TBA" eastern_date="19700101" hc="tex" vc="nd" hn="Texas" vn="Notre Dame" hs="21" vs="17" event_name="Notre Dame @ Texas" tournament="" location="Dallas, Texas" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>8</wins>
+			<losses>2</losses>
+			<ties>1</ties>
+		</overall>
+		<home>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>1</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

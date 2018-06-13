@@ -1,0 +1,59 @@
+<game_days>
+	<event_date date="19860913">
+		<event id="1490435" local_time="TBA" eastern_time="TBA" eastern_date="19860913" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="23" vs="24" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19860920">
+		<event id="1490436" local_time="TBA" eastern_time="TBA" eastern_date="19860920" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="20" vs="15" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19860927">
+		<event id="1490438" local_time="TBA" eastern_time="TBA" eastern_date="19860927" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="41" vs="9" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861004">
+		<event id="1490440" local_time="TBA" eastern_time="TBA" eastern_date="19861004" hc="alab" vc="nd" hn="Alabama" vn="Notre Dame" hs="28" vs="10" event_name="Notre Dame @ Alabama" tournament="" location="Birmingham, Ala." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861011">
+		<event id="1490441" local_time="TBA" eastern_time="TBA" eastern_date="19861011" hc="nd" vc="pitt" hn="Notre Dame" vn="Pittsburgh" hs="9" vs="10" event_name="Pittsburgh @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861018">
+		<event id="1490433" local_time="TBA" eastern_time="TBA" eastern_date="19861018" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="31" vs="3" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861101">
+		<event id="1490447" local_time="TBA" eastern_time="TBA" eastern_date="19861101" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="14" vs="33" event_name="Notre Dame @ Navy" tournament="" location="Baltimore, Md." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861108">
+		<event id="1490449" local_time="TBA" eastern_time="TBA" eastern_date="19861108" hc="nd" vc="smu" hn="Notre Dame" vn="SMU" hs="61" vs="29" event_name="SMU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861115">
+		<event id="1490451" local_time="TBA" eastern_time="TBA" eastern_date="19861115" hc="nd" vc="psu" hn="Notre Dame" vn="Penn State" hs="19" vs="24" event_name="Penn State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861122">
+		<event id="1490453" local_time="TBA" eastern_time="TBA" eastern_date="19861122" hc="lsu" vc="nd" hn="Louisiana State" vn="Notre Dame" hs="21" vs="19" event_name="Notre Dame @ Louisiana State" tournament="" location="Baton Rouge, La." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19861129">
+		<event id="1490454" local_time="TBA" eastern_time="TBA" eastern_date="19861129" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="37" vs="38" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>5</wins>
+			<losses>6</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>3</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

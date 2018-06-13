@@ -1,0 +1,47 @@
+<game_days>
+	<event_date date="19061006">
+		<event id="1611014" local_time="TBA" eastern_time="TBA" eastern_date="19061006" hc="nd" vc="fran" hn="Notre Dame" vn="Franklin" hs="26" vs="0" event_name="Franklin @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061013">
+		<event id="1611015" local_time="TBA" eastern_time="TBA" eastern_date="19061013" hc="nd" vc="hill" hn="Notre Dame" vn="Hillsdale" hs="17" vs="0" event_name="Hillsdale @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061020">
+		<event id="1611016" local_time="TBA" eastern_time="TBA" eastern_date="19061020" hc="nd" vc="chps" hn="Notre Dame" vn="Chicago Physicians &amp; Surgeons" hs="28" vs="0" event_name="Chicago Physicians &amp; Surgeons @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061027">
+		<event id="1611022" local_time="TBA" eastern_time="TBA" eastern_date="19061027" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="5" vs="0" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061103">
+		<event id="1611018" local_time="TBA" eastern_time="TBA" eastern_date="19061103" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="0" vs="2" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061110">
+		<event id="1611019" local_time="TBA" eastern_time="TBA" eastern_date="19061110" hc="ind" vc="nd" hn="Indiana" vn="Notre Dame" hs="12" vs="0" event_name="Notre Dame @ Indiana" tournament="" location="Indianapolis, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19061124">
+		<event id="1611020" local_time="TBA" eastern_time="TBA" eastern_date="19061124" hc="nd" vc="belo" hn="Notre Dame" vn="Beloit" hs="29" vs="0" event_name="Beloit @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>6</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>0</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

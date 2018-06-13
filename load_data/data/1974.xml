@@ -1,0 +1,62 @@
+<game_days>
+	<event_date date="19740909">
+		<event id="1513447" local_time="TBA" eastern_time="TBA" eastern_date="19740909" hc="geot" vc="nd" hn="Georgia Tech" vn="Notre Dame" hs="7" vs="31" event_name="Notre Dame @ Georgia Tech" tournament="" location="Atlanta, Ga." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19740921">
+		<event id="1513451" local_time="TBA" eastern_time="TBA" eastern_date="19740921" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="3" vs="49" event_name="Notre Dame @ Northwestern" tournament="" location="Evanston, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19740928">
+		<event id="1513456" local_time="TBA" eastern_time="TBA" eastern_date="19740928" hc="nd" vc="pur" hn="Notre Dame" vn="Purdue" hs="20" vs="31" event_name="Purdue @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741005">
+		<event id="1513462" local_time="TBA" eastern_time="TBA" eastern_date="19741005" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="14" vs="19" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741012">
+		<event id="1513468" local_time="TBA" eastern_time="TBA" eastern_date="19741012" hc="nd" vc="rice" hn="Notre Dame" vn="Rice" hs="10" vs="3" event_name="Rice @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741019">
+		<event id="1513471" local_time="TBA" eastern_time="TBA" eastern_date="19741019" hc="nd" vc="army" hn="Notre Dame" vn="Army" hs="48" vs="0" event_name="Army @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741026">
+		<event id="1513475" local_time="TBA" eastern_time="TBA" eastern_date="19741026" hc="nd" vc="mifl" hn="Notre Dame" vn="Miami (Fla.)" hs="38" vs="7" event_name="Miami @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741102">
+		<event id="1513481" local_time="TBA" eastern_time="TBA" eastern_date="19741102" hc="navy" vc="nd" hn="Navy" vn="Notre Dame" hs="6" vs="14" event_name="Notre Dame @ Navy" tournament="" location="Philadelphia, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741116">
+		<event id="1513486" local_time="TBA" eastern_time="TBA" eastern_date="19741116" hc="nd" vc="pitt" hn="Notre Dame" vn="Pittsburgh" hs="14" vs="10" event_name="Pittsburgh @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741123">
+		<event id="1513487" local_time="TBA" eastern_time="TBA" eastern_date="19741123" hc="nd" vc="afa" hn="Notre Dame" vn="Air Force" hs="38" vs="0" event_name="Air Force @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19741130">
+		<event id="1513488" local_time="TBA" eastern_time="TBA" eastern_date="19741130" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="55" vs="24" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="19750101">
+		<event id="1513494" local_time="TBA" eastern_time="TBA" eastern_date="19750101" hc="alab" vc="nd" hn="Alabama" vn="Notre Dame" hs="11" vs="13" event_name="Notre Dame @ Alabama" tournament="Orange Bowl" location="Miami, Fla." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>2</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>2</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

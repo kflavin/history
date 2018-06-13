@@ -1,0 +1,30 @@
+<game_days>
+	<event_date date="18871123">
+		<event id="1611259" local_time="TBA" eastern_time="TBA" eastern_date="18871123" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="0" vs="8" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18880420">
+		<event id="1611260" local_time="TBA" eastern_time="TBA" eastern_date="18880420" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="6" vs="26" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="18880421">
+		<event id="1611261" local_time="TBA" eastern_time="TBA" eastern_date="18880421" hc="nd" vc="mich" hn="Notre Dame" vn="Michigan" hs="4" vs="10" event_name="Michigan @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>0</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>0</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>0</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+	</record>
+</game_days>

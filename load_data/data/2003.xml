@@ -1,0 +1,60 @@
+<game_days>
+	<event_date date="20030906">
+		<event id="243241" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20030906" hc="nd" vc="wast" hn="Notre Dame" vn="Washington State" hs="29" vs="26" event_name="Washington State @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20030913">
+		<event id="243247" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20030913" hc="mich" vc="nd" hn="Michigan" vn="Notre Dame" hs="38" vs="0" event_name="Notre Dame @ Michigan" tournament="" location="Ann Arbor, MI" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20030920">
+		<event id="243242" local_time="1:30 PM ET" eastern_time="14:30" eastern_date="20030920" hc="nd" vc="msu" hn="Notre Dame" vn="Michigan State" hs="16" vs="22" event_name="Michigan State @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20030927">
+		<event id="243248" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20030927" hc="pur" vc="nd" hn="Purdue" vn="Notre Dame" hs="23" vs="10" event_name="Notre Dame @ Purdue" tournament="" location="West Lafayette, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031011">
+		<event id="243249" local_time="6:00 PM ET" eastern_time="18:00" eastern_date="20031011" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="14" vs="20" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, PA" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031018">
+		<event id="243243" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20031018" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="14" vs="45" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031025">
+		<event id="243250" local_time="12:00 PM ET" eastern_time="12:00" eastern_date="20031025" hc="bc" vc="nd" hn="Boston College" vn="Notre Dame" hs="27" vs="25" event_name="Notre Dame @ Boston College" tournament="" location="Chestnut Hill, MA" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031101">
+		<event id="243244" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20031101" hc="nd" vc="fsu" hn="Notre Dame" vn="Florida State" hs="0" vs="37" event_name="Florida State @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031108">
+		<event id="243245" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20031108" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="27" vs="24" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031115">
+		<event id="243246" local_time="2:30 PM ET" eastern_time="14:30" eastern_date="20031115" hc="nd" vc="byu" hn="Notre Dame" vn="BYU" hs="33" vs="14" event_name="BYU @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031129">
+		<event id="243251" local_time="5:00 PM PT" eastern_time="20:00" eastern_date="20031129" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="7" vs="57" event_name="Notre Dame @ Stanford" tournament="" location="Palo Alto, CA" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20031206">
+		<event id="243252" local_time="1:00 PM ET" eastern_time="13:00" eastern_date="20031206" hc="syr" vc="nd" hn="Syracuse" vn="Notre Dame" hs="38" vs="12" event_name="Notre Dame @ Syracuse" tournament="" location="Syracuse, NY" headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20040424">
+		<event id="337352" local_time="1:30 PM ET" eastern_time="13:30" eastern_date="20040424" hc="nd" vc="NLST" hn="Notre Dame" vn="Blue-Gold Game" hs="35" vs="7" event_name=" @ Notre Dame" tournament="" location="Notre Dame, IN" headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>0</neutral_site_games>
+		<overall>
+			<wins>5</wins>
+			<losses>7</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>3</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>2</wins>
+			<losses>4</losses>
+			<ties>0</ties>
+		</away>
+	</record>
+</game_days>

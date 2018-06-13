@@ -1,0 +1,68 @@
+<game_days>
+	<event_date date="20170902">
+		<event id="1979253" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20170902" hc="nd" vc="tem" hn="Notre Dame" vn="Temple" hs="49" vs="16" event_name="Temple @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20170909">
+		<event id="1979254" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20170909" hc="nd" vc="geo" hn="Notre Dame" vn="Georgia" hs="19" vs="20" event_name="Georgia @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20170916">
+		<event id="1864162" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20170916" hc="bc" vc="nd" hn="Boston College" vn="Notre Dame" hs="20" vs="49" event_name="Notre Dame @ Boston College" tournament="" location="Chestnut Hill, Mass." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20170923">
+		<event id="2020329" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20170923" hc="msu" vc="nd" hn="Michigan State" vn="Notre Dame" hs="18" vs="38" event_name="Notre Dame @ Michigan State" tournament="" location="East Lansing, Mich." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20170930">
+		<event id="1979256" local_time="5:00 PM ET" eastern_time="17:00" eastern_date="20170930" hc="nd" vc="mioh" hn="Notre Dame" vn="Miami" hs="52" vs="17" event_name="Miami @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171007">
+		<event id="1864164" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20171007" hc="unc" vc="nd" hn="North Carolina" vn="Notre Dame" hs="10" vs="33" event_name="Notre Dame @ North Carolina" tournament="" location="Chapel Hill, N.C." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171021">
+		<event id="1979257" local_time="7:30 PM ET" eastern_time="19:30" eastern_date="20171021" hc="nd" vc="usc" hn="Notre Dame" vn="USC" hs="49" vs="14" event_name="USC @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171028">
+		<event id="1864168" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20171028" hc="nd" vc="ncst" hn="Notre Dame" vn="NC State" hs="35" vs="14" event_name="NC State @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171104">
+		<event id="1864169" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20171104" hc="nd" vc="wake" hn="Notre Dame" vn="Wake Forest" hs="48" vs="37" event_name="Wake Forest @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171111">
+		<event id="1864170" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20171111" hc="mifl" vc="nd" hn="Miami (Fla.)" vn="Notre Dame" hs="41" vs="8" event_name="Notre Dame @ Miami (Fla.)" tournament="" location="Miami Gardens, Fla." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171118">
+		<event id="1979258" local_time="3:30 PM ET" eastern_time="15:30" eastern_date="20171118" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="24" vs="17" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20171125">
+		<event id="1979259" local_time="8:00 PM ET" eastern_time="20:00" eastern_date="20171125" hc="stan" vc="nd" hn="Stanford" vn="Notre Dame" hs="38" vs="20" event_name="Notre Dame @ Stanford" tournament="" location="Stanford, Calif." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20180101">
+		<event id="2079691" local_time="1:00 PM ET" eastern_time="13:00" eastern_date="20180101" hc="lsu" vc="nd" hn="Louisiana State" vn="Notre Dame" hs="17" vs="21" event_name="LSU" tournament="Citrus Bowl Presented By Overton&apos;s" location="Orlando, Fla." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<event_date date="20180421">
+		<event id="2089184" local_time="12:30 PM ET" eastern_time="12:30" eastern_date="20180421" hc="nd" vc="NLST" hn="Notre Dame" vn="Blue-Gold Game" hs="47" vs="44" event_name=" @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="yes" gameaudio="no" gamevideo="no" position="1"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>3</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>6</wins>
+			<losses>1</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>3</wins>
+			<losses>2</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>

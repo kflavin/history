@@ -1,0 +1,56 @@
+<game_days>
+	<event_date date="19301004">
+		<event id="1610319" local_time="TBA" eastern_time="TBA" eastern_date="19301004" hc="nd" vc="smu" hn="Notre Dame" vn="SMU" hs="20" vs="14" event_name="SMU @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301011">
+		<event id="1610320" local_time="TBA" eastern_time="TBA" eastern_date="19301011" hc="nd" vc="navy" hn="Notre Dame" vn="Navy" hs="26" vs="2" event_name="Navy @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301018">
+		<event id="1610321" local_time="TBA" eastern_time="TBA" eastern_date="19301018" hc="nd" vc="carn" hn="Notre Dame" vn="Carnegie Mellon" hs="21" vs="6" event_name="Carnegie Tech" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301025">
+		<event id="1610322" local_time="TBA" eastern_time="TBA" eastern_date="19301025" hc="pitt" vc="nd" hn="Pittsburgh" vn="Notre Dame" hs="19" vs="35" event_name="Notre Dame @ Pittsburgh" tournament="" location="Pittsburgh, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301101">
+		<event id="1610323" local_time="TBA" eastern_time="TBA" eastern_date="19301101" hc="nd" vc="ind" hn="Notre Dame" vn="Indiana" hs="27" vs="0" event_name="Indiana @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301108">
+		<event id="1610324" local_time="TBA" eastern_time="TBA" eastern_date="19301108" hc="penn" vc="nd" hn="Pennsylvania" vn="Notre Dame" hs="20" vs="60" event_name="Notre Dame @ Penn" tournament="" location="Philadelphia, Pa." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301115">
+		<event id="1610325" local_time="TBA" eastern_time="TBA" eastern_date="19301115" hc="nd" vc="drak" hn="Notre Dame" vn="Drake" hs="28" vs="7" event_name="Drake @ Notre Dame" tournament="" location="Notre Dame, Ind." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301122">
+		<event id="1610326" local_time="TBA" eastern_time="TBA" eastern_date="19301122" hc="nw" vc="nd" hn="Northwestern" vn="Notre Dame" hs="0" vs="14" event_name="Notre Dame @ Northwestern" tournament="" location="Evanston, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301129">
+		<event id="1610327" local_time="TBA" eastern_time="TBA" eastern_date="19301129" hc="nd" vc="army" hn="Notre Dame" vn="Army" hs="7" vs="6" event_name="Army @ Notre Dame" tournament="" location="Chicago, Ill." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<event_date date="19301206">
+		<event id="1610330" local_time="TBA" eastern_time="TBA" eastern_date="19301206" hc="usc" vc="nd" hn="USC" vn="Notre Dame" hs="0" vs="27" event_name="Notre Dame @ USC" tournament="" location="Los Angeles, Calif." headtohead="yes" gametracker="no" gameaudio="no" gamevideo="no"/>
+	</event_date>
+	<record hide="0">
+		<conf_games>0</conf_games>
+		<neutral_site_games>1</neutral_site_games>
+		<overall>
+			<wins>10</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</overall>
+		<home>
+			<wins>5</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</home>
+		<away>
+			<wins>4</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</away>
+		<neutral>
+			<wins>1</wins>
+			<losses>0</losses>
+			<ties>0</ties>
+		</neutral>
+	</record>
+</game_days>
