@@ -20,7 +20,7 @@ query = """
   }
 """
 
-for filename in os.listdir("data/"):
+for filename in sorted(os.listdir("data/")):
     print("Opening file " + filename)
     tree = ET.parse('data/' + filename)
     root = tree.getroot()
@@ -44,12 +44,6 @@ for filename in os.listdir("data/"):
                 opponent = gc['hn']
                 # print("Opponent is " + opponent)
 
-                if gc['vs'] > gc['hs']:
-                    result = "WIN"
-                elif gc['vs'] == gc['hs']:
-                    result = "TIE"
-                else:
-                    result = "LOSS"
             else:
                 # print("ND is at home for " + gc['event_name'])
                 score1 = int(gc['hs']) if gc['hs'] else None
@@ -58,12 +52,17 @@ for filename in os.listdir("data/"):
                 opponent = gc['vn']
                 # print("Opponent is " + opponent)
 
-                if gc['hs'] > gc['vs']:
+            if score1 and score2:
+                if score1 > score2:
                     result = "WIN"
-                elif gc['hs'] == gc['vs']:
+                elif score1 == score2:
                     result = "TIE"
-                else:
+                elif score1 < score2:
                     result = "LOSS"
+                else:
+                    result = None
+            else:
+                result = None
 
 
             print("home={} opponent={} score1={} score2={} result={} date={} season={}".format(home, opponent, score1, score2, result, date, season))
