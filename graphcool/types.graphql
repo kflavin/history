@@ -42,10 +42,10 @@ type Game @model {
   createdAt: DateTime!
   updatedAt: DateTime!
 
-  opponent: String!
-  home: Boolean!
-  score1: Int!
-  score2: Int!
+  opponent: String
+  home: Boolean
+  score1: Int
+  score2: Int
   result: RESULT! @defaultValue(value: WIN)
   date: DateTime,
   season: Int
