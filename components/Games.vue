@@ -141,6 +141,9 @@ export default {
       },
       update (data) {
         this.pagesInfo.totalCount = data._allGamesMeta.count
+        // this.pagesInfo.totalCount = data.allGames.length
+        // console.log('total count from length is ' + data.allGames.length)
+        // console.log('total count is ' + this.pagesInfo.totalCount)
         return data.allGames
       }
     }

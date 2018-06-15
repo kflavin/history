@@ -34,7 +34,17 @@ query allGames($opponent: String,
             year
         }
 	}
-    _allGamesMeta {
+    _allGamesMeta(
+        filter: {
+            opponent: $opponent,
+            home: $home,
+            score1: $score1,
+            score2: $score2,
+            result: $result,
+            date: $date,
+            season: $season
+        },
+    ) {
 		count
 	}
 }
