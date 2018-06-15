@@ -33,7 +33,7 @@ div
     hide-actions
   )
     template(slot="items" slot-scope="props")
-      td {{ props.item.season }}
+      td {{ props.item.season.year }}
       td {{ $moment(props.item.date).format('YYYY-MM-DD') }}
       td {{ props.item.opponent }}
       td {{ props.item.result }}
@@ -46,12 +46,12 @@ div
       @input="setPage"
       circle
   )
-    
 
 </template>
 
 <script>
 import GAMES from '~/apollo/queries/games'
+import ALL_SEASONS from '~/apollo/queries/allSeasons'
 import PaginationMixin from '~/components/mixins/pagination'
 
 export default {
@@ -85,14 +85,14 @@ export default {
         { text: 'Score', value: 'score', align: 'left' }
 
       ],
-      filter: {},
-      graphqlFilters: {}
+      filter: { season: {} },
+      graphqlFilters: { season: {} }
     }
   },
   methods: {
     resetFilters () {
-      this.filter = Object.assign({}, {})
-      this.graphqlFilters = Object.assign({}, {})
+      this.filter = Object.assign({ season: {} }, {})
+      this.graphqlFilters = Object.assign({ season: {} }, {})
     },
     setValue (key, value) {
       console.log(' set to value: ' + value)
@@ -111,13 +111,21 @@ export default {
       this.setValue('result', value)
     },
     setSeason (value) {
-      this.setValue('season', value ? parseInt(value) : null)
+      this.filter.season.year = parseInt(value)
+      this.graphqlFilters = Object.assign({}, this.filter)
     }
   },
   pagination: {
-    itemsPerPage: 5
+    itemsPerPage: 15
   },
   apollo: {
+    allSeasons: {
+      query: ALL_SEASONS,
+      fetchPolicy: 'network-only',
+      update (data) {
+        return data.allSeasons
+      }
+    },
     rows: {
       query: GAMES,
       fetchPolicy: 'network-only',

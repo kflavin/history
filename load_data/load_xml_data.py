@@ -3,24 +3,48 @@ from query import run_query
 import os, sys
 from datetime import date
 
-# The GraphQL query (with a few aditional bits included) itself defined as a multi-line string.       
 query = """
-  mutation($home: Boolean, $opponent: String, $score1: Int, $score2: Int, $result: RESULT, $date: DateTime, $season: Int) {
-	createGame(
+  query {
+      allSeasons {
+          year
+          id
+      }
+  }
+"""
+seasons = run_query(query)['data']['allSeasons']
+season_map = {}
+for season in seasons:
+    season_map[str(season['year'])] = season['id']
+
+
+# The GraphQL query (with a few aditional bits included) itself defined as a multi-line string.       
+mutation = """
+mutation createGames (
+	$home: Boolean
+	$opponent: String
+	$score1: Int
+	$score2: Int
+	$result: RESULT
+	$date: DateTime
+	$seasonId: ID
+) {
+	createGame (
 		home: $home
 		opponent: $opponent
 		score1: $score1
 		score2: $score2
 		result: $result
 		date: $date
-		season: $season
+		seasonId: $seasonId
+		
 	) {
-		result
+		id
 	}
-  }
+}
+
 """
 
-for filename in sorted(os.listdir("data/")):
+def addSeason(filename):
     print("Opening file " + filename)
     tree = ET.parse('data/' + filename)
     root = tree.getroot()
@@ -65,7 +89,7 @@ for filename in sorted(os.listdir("data/")):
                 result = None
 
 
-            print("home={} opponent={} score1={} score2={} result={} date={} season={}".format(home, opponent, score1, score2, result, date, season))
+            print("home={} opponent={} score1={} score2={} result={} date={} seasonId={}".format(home, opponent, score1, score2, result, date, season_map[season]))
             variables = {
                 "home": home,
                 "opponent": opponent,
@@ -73,8 +97,17 @@ for filename in sorted(os.listdir("data/")):
                 "score2": score2,
                 "result": result,
                 "date": event_date,
-                "season": int(season)
-
+                "seasonId": season_map[season]
             }
             import json
-            print(run_query(query, json.dumps(variables)))
+            print(run_query(mutation, json.dumps(variables)))
+
+if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        y = sys.argv[1]
+        s = y.split(",")
+        for i in s:
+            addSeason(i.strip()+".xml")
+    else:
+        for filename in sorted(os.listdir("data/")):
+            addSeason(filename)
