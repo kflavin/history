@@ -1,0 +1,5 @@
+query allSeasons {
+    allSeasons {
+        year
+    }
+}
