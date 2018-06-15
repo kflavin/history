@@ -46,13 +46,20 @@ type Game @model {
   home: Boolean
   score1: Int
   score2: Int
-  result: RESULT! @defaultValue(value: WIN)
+  result: RESULT @defaultValue(value: NONE)
   date: DateTime,
-  season: Int
+  season: Season @relation(name: "GameInSeason")
+}
+
+type Season @model {
+  id: ID! @isUnique
+  year: Int! @isUnique
+  games: [Game!]! @relation(name: "GameInSeason")
 }
 
 enum RESULT {
   WIN
   LOSS
   TIE
+  NONE
 }

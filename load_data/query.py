@@ -1,6 +1,7 @@
 # An example to get the remaining rate limit using the Github GraphQL API.
 
 import requests
+import os
 
 headers = {"Authorization": "Bearer YOUR API KEY"}
 
@@ -10,7 +11,7 @@ def run_query(query, variables=None): # A simple function to use requests.post t
     if variables != None:
         json['variables'] = variables
 
-    request = requests.post('http://localhost:60000/simple/v1/cjgyln01800020146e7hd3es6', json=json, headers=headers)
+    request = requests.post(os.environ['GRAPHQL_API'], json=json, headers=headers)
     if request.status_code == 200:
         return request.json()
     else:

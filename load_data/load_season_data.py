@@ -5,9 +5,8 @@ from datetime import date
 
 # The GraphQL query (with a few aditional bits included) itself defined as a multi-line string.       
 query = """
-mutation createSeason($description: String, $year: Int!, $games: [SeasongamesGame!]!) {
+mutation createSeason($year: Int!, $games: [SeasongamesGame!]!) {
   createSeason(
-    description: $description
     year: $year
     games: $games
   ) {
@@ -19,7 +18,6 @@ mutation createSeason($description: String, $year: Int!, $games: [SeasongamesGam
 for year in range(1887,2018):
     variables = {
                 "year": year,
-                "description": "",
                 "games": []
             }
     import json
