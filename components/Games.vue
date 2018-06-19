@@ -15,7 +15,7 @@ div
       no-ssr
         div
           label(for="season") Season
-          vue-select(id="season" label="Season" @input="setSeason" :options="seasons")
+          vue-select(id="season" label="Season" @input="setSeason" :options="allSeasons")
   div.text-xs-center.pt-2
     v-pagination(
       :length="numberOfPages"
@@ -33,7 +33,7 @@ div
     hide-actions
   )
     template(slot="items" slot-scope="props")
-      td {{ props.item.season.year }}
+      td {{ props.item.seasonYear }}
       td {{ $moment(props.item.date).format('YYYY-MM-DD') }}
       td {{ props.item.opponent }}
       td {{ props.item.result }}
@@ -62,7 +62,7 @@ export default {
         sortBy: 'date',
         descending: true,
         sortMap: {
-          'season': 'season',
+          'seasonYear': 'seasonYear',
           'date': 'date',
           'opponent': 'opponent',
           'result': 'result',
@@ -71,28 +71,37 @@ export default {
       },
       opponent: null,
       result: null,
-      season: null,
+      seasonYear: null,
       opponents: ['Michigan', 'Purdue', 'Georgia', 'USC', 'Miami'],
       results: [
         'WIN', 'LOSS', 'TIE'
       ],
       seasons: ['2018', '2017', '2016', '1998'],
       headers: [
-        { text: 'Season', value: 'season', align: 'left' },
+        { text: 'Season', value: 'seasonYear', align: 'left' },
         { text: 'Date', value: 'date', align: 'left' },
         { text: 'Opponent', value: 'opponent', align: 'left' },
         { text: 'Result', value: 'result', align: 'left' },
         { text: 'Score', value: 'score', align: 'left' }
 
       ],
-      filter: { season: {} },
-      graphqlFilters: { season: {} }
+      // filter: { season: {} },
+      filter: {},
+      // graphqlFilters: { season: {} }
+      graphqlFilters: {}
+    }
+  },
+  computed: {
+    allSeasons () {
+      console.log(this.allSeasons)
+      return this.allSeasons
+      // return ['2017', '2016', '2015', '2014', '2013']
     }
   },
   methods: {
     resetFilters () {
-      this.filter = Object.assign({ season: {} }, {})
-      this.graphqlFilters = Object.assign({ season: {} }, {})
+      this.filter = Object.assign({}, {})
+      this.graphqlFilters = Object.assign({}, {})
     },
     setValue (key, value) {
       console.log(' set to value: ' + value)
@@ -111,8 +120,9 @@ export default {
       this.setValue('result', value)
     },
     setSeason (value) {
-      this.filter.season.year = parseInt(value)
-      this.graphqlFilters = Object.assign({}, this.filter)
+      this.setValue('seasonYear', parseInt(value))
+      // this.filter.season.year = parseInt(value)
+      // this.graphqlFilters = Object.assign({}, this.filter)
     }
   },
   pagination: {
@@ -123,7 +133,10 @@ export default {
       query: ALL_SEASONS,
       fetchPolicy: 'network-only',
       update (data) {
-        return data.allSeasons
+        console.log('seasons')
+        console.log(data.allSeasons.map(s => `${s.year}`))
+        let seasons = data.allSeasons.map(s => `${s.year}`).sort().reverse()
+        return seasons
       }
     },
     rows: {
@@ -133,7 +146,7 @@ export default {
         return {
           opponent: this.graphqlFilters.opponent,
           result: this.graphqlFilters.result,
-          season: this.graphqlFilters.season,
+          seasonYear: this.graphqlFilters.seasonYear,
           orderBy: this.pagination.orderBy,
           first: this.pagesInfo.itemsPerPage,
           skip: this.pagesInfo.skip

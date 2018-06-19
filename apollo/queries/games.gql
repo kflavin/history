@@ -4,7 +4,7 @@ query allGames($opponent: String,
                 $score2: Int,
                 $result: RESULT,
                 $date: DateTime,
-                $season: SeasonFilter,
+                $seasonYear: Int,
                 $orderBy: GameOrderBy,
                 $first: Int,
                 $skip: Int
@@ -17,7 +17,7 @@ query allGames($opponent: String,
             score2: $score2,
             result: $result,
             date: $date,
-            season: $season
+            seasonYear: $seasonYear
         },
         orderBy: $orderBy,
         first: $first,
@@ -33,6 +33,7 @@ query allGames($opponent: String,
         season {
             year
         }
+        seasonYear
 	}
     _allGamesMeta(
         filter: {
@@ -42,7 +43,7 @@ query allGames($opponent: String,
             score2: $score2,
             result: $result,
             date: $date,
-            season: $season
+            seasonYear: $seasonYear
         },
     ) {
 		count

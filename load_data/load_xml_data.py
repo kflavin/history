@@ -100,7 +100,7 @@ def addSeason(filename):
                 "result": result,
                 "date": event_date,
                 "seasonId": season_map[season],
-                "seasonYear": season
+                "seasonYear": int(season)
             }
             import json
             print(run_query(mutation, json.dumps(variables)))
