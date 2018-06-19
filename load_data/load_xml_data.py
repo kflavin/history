@@ -27,6 +27,7 @@ mutation createGames (
 	$result: RESULT
 	$date: DateTime
 	$seasonId: ID
+	$seasonYear: Int
 ) {
 	createGame (
 		home: $home
@@ -36,6 +37,7 @@ mutation createGames (
 		result: $result
 		date: $date
 		seasonId: $seasonId
+                seasonYear: $seasonYear
 		
 	) {
 		id
@@ -97,7 +99,8 @@ def addSeason(filename):
                 "score2": score2,
                 "result": result,
                 "date": event_date,
-                "seasonId": season_map[season]
+                "seasonId": season_map[season],
+                "seasonYear": season
             }
             import json
             print(run_query(mutation, json.dumps(variables)))

@@ -49,6 +49,7 @@ type Game @model {
   result: RESULT @defaultValue(value: NONE)
   date: DateTime,
   season: Season @relation(name: "GameInSeason")
+  seasonYear: Int
 }
 
 type Season @model {
