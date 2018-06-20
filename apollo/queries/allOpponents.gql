@@ -1,0 +1,5 @@
+query allOpponents {
+    allOpponents {
+        name
+    }
+}

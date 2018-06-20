@@ -5,7 +5,7 @@ div
       no-ssr
         div
           label(for="opponent") Opponent
-          vue-select(id="opponent" @input="setOpponent" label="Opponent" :options="opponents")
+          vue-select(id="opponent" @input="setOpponent" label="Opponent" :options="allOpponents")
     v-flex(xs3)
       no-ssr
         div
@@ -52,6 +52,7 @@ div
 <script>
 import GAMES from '~/apollo/queries/games'
 import ALL_SEASONS from '~/apollo/queries/allSeasons'
+import ALL_OPPONENTS from '~/apollo/queries/allOpponents'
 import PaginationMixin from '~/components/mixins/pagination'
 
 export default {
@@ -93,9 +94,14 @@ export default {
   },
   computed: {
     allSeasons () {
-      console.log(this.allSeasons)
+      console.log('compute allSeasons')
       return this.allSeasons
       // return ['2017', '2016', '2015', '2014', '2013']
+    },
+    allOpponents () {
+      console.log('compute allOpponents')
+      console.log(this.allOpponents)
+      return this.allOpponents
     }
   },
   methods: {
@@ -129,6 +135,13 @@ export default {
     itemsPerPage: 15
   },
   apollo: {
+    allOpponents: {
+      query: ALL_OPPONENTS,
+      fetchPolicy: 'network-only',
+      update (data) {
+        return data.allOpponents.map(t => `${t.name}`)
+      }
+    },
     allSeasons: {
       query: ALL_SEASONS,
       fetchPolicy: 'network-only',
