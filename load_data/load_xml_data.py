@@ -78,7 +78,8 @@ def addSeason(filename):
                 opponent = gc['vn']
                 # print("Opponent is " + opponent)
 
-            if score1 and score2:
+            #if score1 and score2:
+            if score1 != None and score2 != None:
                 if score1 > score2:
                     result = "WIN"
                 elif score1 == score2:
