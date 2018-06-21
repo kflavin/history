@@ -52,7 +52,7 @@ div
 <script>
 import GAMES from '~/apollo/queries/games'
 import ALL_SEASONS from '~/apollo/queries/allSeasons'
-import ALL_OPPONENTS from '~/apollo/queries/allOpponents'
+import ALL_OPPONENTS from '~/apollo/queries/filterOpponents'
 import PaginationMixin from '~/components/mixins/pagination'
 
 export default {

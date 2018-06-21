@@ -1,0 +1,20 @@
+query filterOpponents($name: String, $orderBy: OpponentOrderBy, $first: Int, $skip: Int) {
+    allOpponents(
+			filter: {
+				name: $name
+			},
+			orderBy: $orderBy
+			first: $first
+			skip: $skip
+		) {
+        name
+    },
+	_allOpponentsMeta(
+        filter: {
+            name: $name
+		},
+    ) {
+		count
+	}
+}
+
