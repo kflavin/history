@@ -16,3 +16,7 @@ build
 *.log
 
 *.pyc
+
+# env files
+.env
+.graph*
