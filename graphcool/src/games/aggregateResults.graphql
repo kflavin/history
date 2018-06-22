@@ -1,0 +1,13 @@
+type ResultsAggregate {
+  count: Int
+  winCount: Int
+  lossCount: Int
+  tieCount: Int
+}
+
+extend type Query {
+  aggregate(
+    opponent: String,
+    seasonYear: Int
+  ): ResultsAggregate
+}

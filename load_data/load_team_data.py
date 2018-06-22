@@ -7,10 +7,10 @@ import json
 # The GraphQL query (with a few aditional bits included) itself defined as a multi-line string.       
 mutation = """
 
-mutation createTeam (
+mutation createOpponent (
     $name: String
 ) {
-    createTeam(
+    createOpponent(
         name: $name
     ) {
         id

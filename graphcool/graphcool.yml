@@ -52,6 +52,12 @@ functions:
     handler:
       code: src/games/gamesInput.js
 
+  aggTheResults:
+    type: resolver
+    schema: src/games/aggregateResults.graphql
+    handler:
+      code: src/games/aggregateResults.js
+
 
 # Model/Relation permissions are used to limit the API access
 # To take the burden of thinking about those while development, we
