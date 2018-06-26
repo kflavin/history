@@ -8,6 +8,7 @@ type ResultsAggregate {
 extend type Query {
   aggregate(
     opponent: String,
-    seasonYear: Int
+    seasonYear: Int,
+    result: String
   ): ResultsAggregate
 }

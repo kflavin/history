@@ -1,0 +1,17 @@
+query (
+	$opponent: String, 
+	$seasonYear: Int,
+	$result: String
+){
+	aggregate(
+		opponent: $opponent, 
+		seasonYear: $seasonYear,
+		result: $result
+	) {
+		count
+		winCount
+		lossCount
+		tieCount
+	}
+}
+

@@ -7,7 +7,7 @@ export default async (event) => {
 
   const graphcool = fromEvent(event)
   const api = graphcool.api('simple/v1')
-  const { opponent, seasonYear } = event.data
+  const { opponent, seasonYear, result } = event.data
 
   const winQuery = `
       query aggregateResults($opponent: String, $seasonYear: Int) {
@@ -37,30 +37,42 @@ export default async (event) => {
               }
           }
           `
+
   const variables = { opponent, seasonYear }
-  const winCount = await api.request(winQuery, variables)
-  const lossCount = await api.request(lossQuery, variables)
-  const tieCount = await api.request(tieQuery, variables)
-  const totalCount = await api.request(countQuery, variables)
+  let winCount, lossCount, tieCount, totalCount
+
+  if (result !== undefined) {
+    if (result === 'WIN') {
+      winCount = await api.request(winQuery, variables)
+      totalCount = winCount
+      lossCount = 0
+      tieCount = 0
+    } else if (result === 'LOSS') {
+      lossCount = await api.request(lossQuery, variables)
+      totalCount = lossCount
+      winCount = 0
+      tieCount = 0
+    } else if (result === 'TIE') {
+      tieCount = await api.request(tieQuery, variables)
+      totalCount = tieCount
+      winCount = 0
+      lossCount = 0
+    } else {
+      winCount = await api.request(winQuery, variables)
+      lossCount = await api.request(lossQuery, variables)
+      tieCount = await api.request(tieQuery, variables)
+      totalCount = await api.request(countQuery, variables)
+    }
+  } else {
+    winCount = await api.request(winQuery, variables)
+    lossCount = await api.request(lossQuery, variables)
+    tieCount = await api.request(tieQuery, variables)
+    totalCount = await api.request(countQuery, variables)
+  }
 
   return { data: {
-    count: totalCount._allGamesMeta.count,
-    winCount: winCount._allGamesMeta.count,
-    lossCount: lossCount._allGamesMeta.count,
-    tieCount: tieCount._allGamesMeta.count } }
+    count: isNaN(totalCount) ? totalCount._allGamesMeta.count : totalCount,
+    winCount: isNaN(winCount) ? winCount._allGamesMeta.count : winCount,
+    lossCount: isNaN(lossCount) ? lossCount._allGamesMeta.count : lossCount,
+    tieCount: isNaN(tieCount) ? tieCount._allGamesMeta.count : tieCount } }
 }
-
-// function getResultsAgg(api, opponent) {
-// async function getResultsAgg(api, opponent) {
-//    const query = `
-//      query aggregateResults($opponent: String!) {
-//          _allGamesMeta(filter: { opponent: $opponent, result: WIN }) {
-//              count
-//          }
-//      }
-//    const variables = { opponent }
-//    const value = await api.request(query, variables)
-//    return value
-// }
-
-

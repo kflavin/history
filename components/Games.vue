@@ -16,6 +16,8 @@ div
         div
           label(for="season") Season
           vue-select(id="season" label="Season" @input="setSeason" :options="allSeasons")
+  div
+    p Win: {{resultsAgg.winCount}} Loss: {{resultsAgg.lossCount}} Tie: {{resultsAgg.tieCount}} Total: {{resultsAgg.count}}
   div.text-xs-center.pt-2
     v-pagination(
       :length="numberOfPages"
@@ -51,6 +53,7 @@ div
 
 <script>
 import GAMES from '~/apollo/queries/games'
+import RESULTS_AGGREGATE from '~/apollo/queries/resultsAggregate'
 import ALL_SEASONS from '~/apollo/queries/allSeasons'
 import ALL_OPPONENTS from '~/apollo/queries/filterOpponents'
 import PaginationMixin from '~/components/mixins/pagination'
@@ -102,6 +105,11 @@ export default {
       console.log('compute allOpponents')
       console.log(this.allOpponents)
       return this.allOpponents
+    },
+    resultsAgg () {
+      console.log('resultsAggregate...')
+      console.log(this.resultsAggregate)
+      return this.resultsAggregate
     }
   },
   methods: {
@@ -171,6 +179,23 @@ export default {
         // console.log('total count from length is ' + data.allGames.length)
         // console.log('total count is ' + this.pagesInfo.totalCount)
         return data.allGames
+      }
+    },
+    resultsAggregate: {
+      query: RESULTS_AGGREGATE,
+      fetchPolicy: 'network-only',
+      variables () {
+        return {
+          opponent: this.graphqlFilters.opponent,
+          result: this.graphqlFilters.result,
+          seasonYear: this.graphqlFilters.seasonYear
+        }
+      },
+      update (data) {
+        console.log('agg data')
+        console.log(data)
+
+        return data.aggregate
       }
     }
   }
