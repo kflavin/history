@@ -17,7 +17,7 @@ div
           label(for="season") Season
           vue-select(id="season" label="Season" @input="setSeason" :options="allSeasons")
   div
-    p Win: {{resultsAgg.winCount}} Loss: {{resultsAgg.lossCount}} Tie: {{resultsAgg.tieCount}} Total: {{resultsAgg.count}}
+    p Win: {{winCount}} Loss: {{lossCount}} Tie: {{tieCount}} Total: {{totalCount}}
   div.text-xs-center.pt-2
     v-pagination(
       :length="numberOfPages"
@@ -110,6 +110,18 @@ export default {
       console.log('resultsAggregate...')
       console.log(this.resultsAggregate)
       return this.resultsAggregate
+    },
+    winCount () {
+      return this.resultsAggregate ? this.resultsAggregate.winCount : 0
+    },
+    lossCount () {
+      return this.resultsAggregate ? this.resultsAggregate.lossCount : 0
+    },
+    tieCount () {
+      return this.resultsAggregate ? this.resultsAggregate.tieCount : 0
+    },
+    totalCount () {
+      return this.resultsAggregate ? this.resultsAggregate.count : 0
     }
   },
   methods: {
