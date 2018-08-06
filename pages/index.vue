@@ -6,7 +6,7 @@ v-app
 </template>
 
 <script>
-import Games from '~/components/games'
+import Games from '~/components/Games'
 
 export default {
   created () {
